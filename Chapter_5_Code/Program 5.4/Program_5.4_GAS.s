@@ -1,0 +1,20 @@
+# Program 5.4
+# while Loop - GAS, Clang/LLVM (64-bit)
+# Copyright (c) 2017 Hall & Slonka
+
+.text
+.globl _main
+_main:
+
+movq $30, %rax
+while:
+    cmpq $50, %rax
+    jae done
+    incq %rax
+    jmp while
+done:
+
+movq $0x2000001, %rax
+movq $0, %rdi
+syscall
+.end
