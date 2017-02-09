@@ -2,7 +2,9 @@
 ; x86_64 Investment Calculator - NASM (64-bit)
 ; Copyright (c) 2017 Hall & Slonka
 
-; This program calculates a monthly deposit needed to reach an investment; value, given the future value, interest rate (%), and duration (months)
+; This program calculates a monthly deposit needed to reach an investment
+; value, given the future value, interest rate (%), and duration (months)
+
 
 extern _printString		 ; declare external functions
 extern _printDouble

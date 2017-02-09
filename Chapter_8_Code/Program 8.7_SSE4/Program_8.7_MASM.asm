@@ -3,7 +3,8 @@
 ; Copyright (c) 2017 Hall & Slonka
 
 .686
-.XMM.MODEL FLAT, C
+.XMM
+.MODEL FLAT, C
 .STACK 4096
 
 ExitProcess PROTO stdcall, 
