@@ -1,4 +1,4 @@
-*This page currently a work in progress as we are in the production stage with expected publication in July 2017*
+*This page is currently a work in progress as we are in the production stage with expected publication in July 2017.*
 
 # Assembly Programming and Computer Architecture for Software Engineers (APCASE)
 
