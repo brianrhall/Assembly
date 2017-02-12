@@ -11,7 +11,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 - All programming examples are provided for three common assemblers: GAS (Clang/LLVM), MASM, and NASM, which ensures both AT&T and Intel syntax. This allows for learning on any OS platform: Mac, Windows, and Linux.
 - Context and examples provided in both 32-bit and 64-bit, both of which are useful for a programmer.
 - Code-oriented and detailed overviews of function calls, floating-point operations (x87 through AVX), Inline Assembly, and system calls, all in one book.
-- Brief introduction and code examples for other architectures like ARM, AVR, and RISV-V.
+- Brief introduction and code examples for other architectures like ARM, AVR, and RISC-V.
 - The Appendices provide practical information and guide students in learning Assembly programming.
 - Chapter Supplements provide a deeper dive on topics as necessary.
 - Links to wikis, developer resources, and videos are provided to assist in further exploration of topics.
