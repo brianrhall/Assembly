@@ -16,8 +16,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 - Links to wikis, developer resources, and videos are provided to assist in further exploration of topics.
 - Attention, Programming, and Learning notes are placed throughout the text to guide the reader in beneficial ways.
 
-Is this book for you? Checkout the [Preface](./docs/Preface.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./docs/Chapter_3.pdf), and the free [Appendices](#appendices).<br>
-***Free Content Coming Soon!!!***
+Is this book for you? Checkout the [Preface](./docs/Preface.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./docs/Chapter_3.pdf), and the free [Appendices](#appendices). ***Free Content Coming Soon!!!***
 
 ---
 
