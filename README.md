@@ -23,7 +23,7 @@ Is this book for you? Checkout the [Preface](./docs/Preface.pdf), a free [Chapte
 
 ### Chapter Roadmap
 
-![Alt](./content/ChapterRoadmap.pdf "Chapter Roadmap")
+![Alt](./content/ChapterRoadmap.png "Chapter Roadmap")
 
 ---
 
