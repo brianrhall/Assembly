@@ -22,12 +22,12 @@ repne scasb
 jnz notfound
 
 # found things
-jmp end
+jmp done
 
 notfound:
 # non-found things
 
-end:
+done:
 pushl $0
 subl $4, %esp
 movl $1, %eax

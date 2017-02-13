@@ -26,12 +26,12 @@ repne scasb
 jnz notfound
 
 ; found things
-jmp end
+jmp done
 
 notfound:
 ; non-found things
 
-end:
+done:
 INVOKE ExitProcess, 0
 _main ENDP
 END

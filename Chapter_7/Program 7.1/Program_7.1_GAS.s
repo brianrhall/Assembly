@@ -28,12 +28,12 @@ repe cmpsb
 jnz notequal
 
 # equality things
-jmp end
+jmp done
 
 notequal:
 # non-equality things
 
-end:
+done:
 pushl $0
 subl $4, %esp
 movl $1, %eax

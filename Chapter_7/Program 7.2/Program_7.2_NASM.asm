@@ -22,12 +22,12 @@ repne scasb
 jnz notfound
 
 ; found things
-jmp end
+jmp done
 
 notfound:
 ; non-found things
 
-end:
+done:
 mov eax, 1
 mov ebx, 0
 int 80h

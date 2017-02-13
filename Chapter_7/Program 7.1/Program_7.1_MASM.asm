@@ -32,12 +32,12 @@ repe cmpsb
 jnz notequal
 
 ; equality things
-jmp end
+jmp done
 
 notequal:
 ; non-equality things
 
-end:
+done:
 INVOKE ExitProcess, 0
 _main ENDP
 END

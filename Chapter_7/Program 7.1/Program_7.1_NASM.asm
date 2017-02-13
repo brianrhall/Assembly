@@ -28,12 +28,12 @@ repe cmpsb
 jnz notequal
 
 ; equality things
-jmp end
+jmp done
 
 notequal:
 ; non-equality things
 
-end:
+done:
 mov eax, 1
 mov ebx, 0
 int 80h
