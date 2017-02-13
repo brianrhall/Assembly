@@ -29,7 +29,7 @@ Is this book for you? Checkout the [Preface](./docs/Preface.pdf), a free [Chapte
 
 <a name="appendices"></a>
 ### Appendices
-Appendices A, B, E, and I are available for free.
+Appendices A, B, E, and I are available for free. ***Free Content Coming Soon!!!***
 
 - Introduction to the Appendices
 - [Appendix A: Assembly Translation](./docs/Appendix_A.pdf)
@@ -72,7 +72,7 @@ isbn = {TBD}
 
 **APA**:
 
-Hall, B. R., & Slonka, K. J. (2017) *Assembly Programming and Computer Architecture for Software Engineers*. Burlington, VT: Prospect Press.
+Hall, B. R. & Slonka, K. J. (2017). *Assembly Programming and Computer Architecture for Software Engineers*. Burlington, VT: Prospect Press.
 
 ---
 
