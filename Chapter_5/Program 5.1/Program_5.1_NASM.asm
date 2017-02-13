@@ -14,14 +14,14 @@ _main:
 
  mov eax, 50000
  cmp DWORD [wages], eax
- jae high
+ jae higher
  mov DWORD [taxes], 2000
- jmp end
+ jmp done
 
-high:
+higher:
  mov DWORD [taxes], 4000
 
-end:
+done:
 mov eax, 1
 mov ebx, 0
 int 80h

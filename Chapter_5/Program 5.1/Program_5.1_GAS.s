@@ -14,14 +14,14 @@ _main:
 
 movl $50000, %eax
 cmpl %eax, wages
-jae high
+jae higher
 movl $2000, taxes
-jmp end
+jmp done
 
-high:
+higher:
 movl $4000, taxes
 
-end:
+done:
 pushl $0
 subl $4, %esp
 movl $1, %eax

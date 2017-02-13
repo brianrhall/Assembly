@@ -16,14 +16,14 @@ _main PROC
 
  mov eax, 50000
  cmp wages, eax
- jae high
+ jae higher
  mov taxes, 2000
- jmp end
+ jmp done
 
-high:
+higher:
  mov taxes, 4000
 
-end:
+done:
 INVOKE ExitProcess, 0
 _main ENDP
 END
