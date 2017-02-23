@@ -7,11 +7,11 @@
 _main:
 
 movq $30, %rax
-while:
+while_loop:
     cmpq $50, %rax
     jae done
     incq %rax
-    jmp while
+    jmp while_loop
 done:
 
 movq $0x2000001, %rax

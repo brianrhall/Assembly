@@ -7,11 +7,11 @@ global _main
 _main:
 
 mov rax, 30
-while:
+while_loop:
    cmp rax, 50
    jae done
    inc rax
-   jmp while
+   jmp while_loop
 done:
 
 mov rax, 60
