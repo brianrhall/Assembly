@@ -5,6 +5,9 @@
 #### * Code Repository *
 
 ## About
+<a href="http://www.prospectpressvt.com/titles/hall-assembly-programming/" target="_blank" style="text-decoration:none; color:#000000">
+<img src = "./content/Cover.png" style="float: right; margin: 5px 0px 0px 30px;" alt = "Cover" width="320" border="1"></a>
+
 Welcome to the code repository for our book! *APCASE* is a very practical and comprehensive educational text for students, educators, and professionals seeking to learn about Assembly programming and computer architecture. But what makes our book helpful and unique?
 
 - Based on x86 and x86_64 architecture.
@@ -80,6 +83,7 @@ Hall, B. R. & Slonka, K. J. (2017). *Assembly Programming and Computer Architect
 ## FAQ
 
 - [How do I assemble and link on Linux?](#linux)
+- [Do I use the .globl or .global directive for *main* in GAS?](#global)
 
 <a name="linux"></a>
 #### How do I assemble and link on Linux?
@@ -98,3 +102,6 @@ Here are some example `nasm` and `as` commands to assemble and link in Linux. Th
 | Link         | `ld -e _main -melf_i386 -o prog prog.o` | `ld -e _main -melf_x86_64 -o prog prog.o` |
 | Exit Routine | `mov $1, %eax`<br>`mov $0, %ebx`<br>`int $0x80` | `mov $60, %rax`<br>`xor %rdi, %rdi`<br>`syscall` |
 
+<a name="global"></a>
+#### Do I use the .globl or .global directive for *main* in GAS?
+Either. In the past, GAS used the .globl directive (without the *a*), but eventually updated the assembler to accept .global as well. We use .globl in the GAS examples and programs in the book.
