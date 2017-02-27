@@ -5,7 +5,7 @@
 #### * Code Repository *
 
 ## About
-<kbd><img src = "./content/Cover.png" align="right" alt = "Cover" width="320" border="1" hspace="10" vspace="5"></kbd>
+<img src = "./content/Cover.png" align="right" alt = "Cover" width="320" border="2" hspace="10" vspace="5">
 
 Welcome to the code repository for our book! *APCASE* is a very practical and comprehensive educational text for students, educators, and professionals seeking to learn about Assembly programming and computer architecture. But what makes our book helpful and unique?
 
