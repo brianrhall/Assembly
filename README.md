@@ -2,7 +2,7 @@
 
 # Assembly Programming and Computer Architecture for Software Engineers (APCASE)
 
-#### * Code Repository - Some Assembly Required...git it? *
+#### * Code Repository - some assembly required...git it? *
 
 ## About
 <img src = "./content/Cover.png" align="right" alt = "Cover" width="320" border="1" hspace="10" vspace="5">
@@ -13,7 +13,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 - All programming examples are provided for three common assemblers: GAS (Clang/LLVM), MASM, and NASM, which ensures both AT&T and Intel syntax. This allows for learning on any OS platform: Mac, Windows, and Linux.
 - Context and examples provided in both 32-bit and 64-bit, both of which are useful for a programmer.
 - Code-oriented and detailed overviews of function calls, floating-point operations (x87 through AVX), Inline Assembly, and system calls, all in one book.
-- Brief introduction and code examples for other modern architectures like ARM, AVR, and RISC-V.
+- Brief introduction and code examples for other modern architectures like ARM, AVR, RISC-V, and z/Architecture.
 - The Appendices provide practical information and guide students in learning Assembly programming.
 - Chapter Supplements provide a deeper dive on topics as necessary.
 - Links to wikis, developer resources, and videos are provided to assist in further exploration of topics.
