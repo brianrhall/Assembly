@@ -15,11 +15,11 @@ daa             # 110 decimal = 6E hex
                 # CF = 1, AL = 10
 adc $0, %bx     # BX = 0 + BX(0) + CF
 cmp $0, %bx     # if CF set(1)
-jz exit
+jz done
 carry:
 add $1, %ah     # set next byte to 1
 
-exit:
+done:
 pushl $0
 subl $4, %esp
 movl $1, %eax

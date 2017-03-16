@@ -2,7 +2,7 @@
 
 # Assembly Programming and Computer Architecture for Software Engineers (APCASE)
 
-#### * Code Repository *
+#### * Code Repository - Some Assembly Required...git it? *
 
 ## About
 <img src = "./content/Cover.png" align="right" alt = "Cover" width="320" border="1" hspace="10" vspace="5">
@@ -18,6 +18,12 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 - Chapter Supplements provide a deeper dive on topics as necessary.
 - Links to wikis, developer resources, and videos are provided to assist in further exploration of topics.
 - Attention, Programming, and Learning notes are placed throughout the text to guide the reader in beneficial ways.
+
+| [Prospect Press](http://www.prospectpressvt.com/) | eBook | Print Book (~350 pages) |
+|----------------|-------|------------|
+| Price     | $44 | $68 |
+| Sources   | Redshelf.com, Vital Source | Redshelf.com, CreateSpace, Amazon |
+| ISBN      | 978-1-943153-31-2 | 978-1-943153-32-9 |
 
 Is this book for you? Checkout the [Preface](./docs/Preface.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./docs/Chapter_3.pdf), and the free [Appendices](#appendices). ***Free Content Coming Soon!!!***
 
@@ -49,7 +55,7 @@ Appendices A, B, E, and I are available for free. ***Free Content Coming Soon!!!
 
 ### Links
 
-- Book Website (@ProspectPress): [http://www.prospectpressvt.com/titles/hall-assembly-programming/](http://www.prospectpressvt.com/titles/hall-assembly-programming/)
+- Book Website (@ProspectPressVT): [http://www.prospectpressvt.com/titles/hall-assembly-programming/](http://www.prospectpressvt.com/titles/hall-assembly-programming/)
 - Brian's Website: [http://www.brianrhall.net](http://www.brianrhall.net)
 - Kevin's Website: [http://www.kevinslonka.com](http://www.kevinslonka.com)
 
@@ -68,7 +74,7 @@ title = {Assembly Programming and Computer Architecture for Software Engineers},
 publisher = {Prospect Press},
 year = {2017},
 address = {Burlington, VT},
-isbn = {TBD}
+isbn = {978-1-943153}
 }
 ```
 
@@ -104,3 +110,7 @@ Here are some example `nasm` and `as` commands to assemble and link in Linux. Th
 <a name="global"></a>
 #### Do I use the .globl or .global directive for *main* in GAS?
 Either. In the past, GAS used the .globl directive (without the *a*), but eventually updated the assembler to accept .global as well. We use .globl in the GAS examples and programs in the book.
+
+## Contact
+We are very happy to answer any questions or consider suggestions you might have about the text. Just email one of us! <br>
+<a href="mailto:hall@champlain.edu">Brian</a> (author) or <a href="mailto:beth.golub@prospectpressvt.com">Beth</a> (publisher)

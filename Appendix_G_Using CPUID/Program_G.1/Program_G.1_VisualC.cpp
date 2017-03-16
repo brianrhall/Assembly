@@ -21,7 +21,7 @@ int main()
            xor ecx, ecx              // ECX = 0
            cpuid
            mov eFeatures1, ebx
-           mov eax, 80000001h        // EAX = 8000000h
+           mov eax, 80000001h        // EAX = 80000001h
            cpuid
            mov eFeatures2, edx
           };
