@@ -5,6 +5,9 @@
 .386
 .MODEL FLAT, stdcall
 .STACK 4096
+
+ExitProcess PROTO, dwExitCode:DWORD
+
 .DATA
 num1 BYTE '8'
 num2 BYTE '2'

@@ -5,6 +5,9 @@
 .386
 .MODEL FLAT, stdcall
 .STACK 4096
+
+ExitProcess PROTO, dwExitCode:DWORD
+
 .DATA
 .CODE
 _main PROC

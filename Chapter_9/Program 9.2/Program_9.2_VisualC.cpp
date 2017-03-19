@@ -10,7 +10,7 @@ int main(){
    float var = 0;
    
    // x87 floating-point example
-   asm{finit
+   __asm{finit
        fldpi
        fsqrt
        fstp var
@@ -21,7 +21,7 @@ int main(){
    // SSE scalar example
    var = 1.2;
    
-   asm{movss xmm0, var
+   __asm{movss xmm0, var
        addss xmm0, var
        movss var, xmm0
    };
