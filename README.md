@@ -73,7 +73,7 @@ When citing code snippets or other content from the repository or book, please c
 author = {Hall, B. R. and Slonka, K. J.},
 title = {Assembly Programming and Computer Architecture for Software Engineers},
 publisher = {Prospect Press},
-year = {2017},
+year = {2018},
 address = {Burlington, VT},
 isbn = {978-1-943153}
 }
@@ -81,7 +81,7 @@ isbn = {978-1-943153}
 
 **APA**:
 
-Hall, B. R. & Slonka, K. J. (2017). *Assembly Programming and Computer Architecture for Software Engineers*. Burlington, VT: Prospect Press.
+Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architecture for Software Engineers*. Burlington, VT: Prospect Press.
 
 ---
 
