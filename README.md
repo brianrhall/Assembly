@@ -1,5 +1,3 @@
-*This page is currently a work in progress as we are in the production stage with expected publication in July 2017.*
-
 # Assembly Programming and Computer Architecture for Software Engineers (APCASE)
 
 #### * Code Repository - some assembly required...git it? *
@@ -19,10 +17,10 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 - Links to wikis, developer resources, and videos are provided to assist in further exploration of topics.
 - Attention, Programming, and Learning notes are placed throughout the text to guide the reader in beneficial ways.
 
-| [Prospect Press](http://www.prospectpressvt.com/) | eBook | Print Book (~350 pages) |
+| [Prospect Press](http://www.prospectpressvt.com/) | eBook | Print Book (306 pages) |
 |----------------|-------|------------|
 | Price     | $44 | $68 |
-| Sources   | Redshelf.com, Vital Source | Redshelf.com, CreateSpace, Amazon |
+| Sources   | Redshelf.com, Vital Source | Redshelf.com, [CreateSpace](https://www.createspace.com/7060151), Amazon |
 | ISBN      | 978-1-943153-31-2 | 978-1-943153-32-9 |
 
 Is this book for you? Checkout the [Preface](./docs/Preface.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./docs/Chapter_3.pdf), and the free [Appendices](#appendices). ***Free Content Coming Soon!!!***
