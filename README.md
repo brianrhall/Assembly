@@ -23,7 +23,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 | Sources   | Redshelf.com, Vital Source | Redshelf.com, [CreateSpace](https://www.createspace.com/7060151), Amazon |
 | ISBN      | 978-1-943153-31-2 | 978-1-943153-32-9 |
 
-Is this book for you? Checkout the [Preface](./docs/Assembly_Preface_GitHub.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./docs/Assembly_Ch_3_GitHub.pdf), and the free [Appendices](#appendices).
+Is this book for you? Checkout the [Preface](./content/Assembly_Preface_GitHub.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./content/Assembly_Ch_3_GitHub.pdf), and the free [Appendices](#appendices).
 
 ---
 
@@ -38,15 +38,15 @@ Is this book for you? Checkout the [Preface](./docs/Assembly_Preface_GitHub.pdf)
 Appendices A, B, E, and I are available for free.
 
 - Introduction to the Appendices
-- [Appendix A: Assembly Translation](./docs/Assembly_App_A_GitHub.pdf)
-- [Appendix B: Environment Setup](./docs/Assembly_App_B_GitHub.pdf)
+- [Appendix A: Assembly Translation](./content/Assembly_App_A_GitHub.pdf)
+- [Appendix B: Environment Setup](./content/Assembly_App_B_GitHub.pdf)
 - Appendix C: Disassembly
 - Appendix D: Command-Line Debugging Assembly with GDB
-- [Appendix E: Linking Assembly and C++](./docs/Assembly_App_E_GitHub.pdf)
+- [Appendix E: Linking Assembly and C++](./content/Assembly_App_E_GitHub.pdf)
 - Appendix F: Functions and Stack
 - Appendix G: Using CPUID
 - Appendix H: ASCII and Decimal Arithmetic
-- [Appendix I: Intrinsics](./docs/Assembly_App_I_GitHub.pdf)
+- [Appendix I: Intrinsics](./content/Assembly_App_I_GitHub.pdf)
 
 
 ---
