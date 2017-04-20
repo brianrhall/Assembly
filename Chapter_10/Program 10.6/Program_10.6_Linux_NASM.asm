@@ -5,7 +5,7 @@
 section .data
 output: DB "Computer Architecture",0Ah
 len: DQ ($ - output)
-file_name: DB "output.txt",0Ah
+file_name: DB "output.txt",0
 file_handle: DD 0
 
 section .text

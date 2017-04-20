@@ -110,6 +110,9 @@ Here are some example `nasm` and `as` commands to assemble and link in Linux. Th
 #### Do I use the .globl or .global directive for *main* in GAS?
 Either. In the past, GAS used the .globl directive (without the *a*), but eventually updated the assembler to accept .global as well. We use .globl in the GAS examples and programs in the book.
 
+## Errata
+- <b>p. 189, Program 10.6, SYSCALL on Linux (NASM 64-bit)</b> <br>Incorrect: `file_name: DB "output.txt",0Ah`<br>Correct: `file_name: DB "output.txt",0`<br>Description: The program will work as-is in the text but will append a line-feed character (\n) to the file name. It works in this case, but is not a good idea. If you were to create a typical text file on your system for <i>input</i> and then use the incorrect code snippet with 0Ah at the end of the file name, it will not work since the program is looking for a file with the extra character.
+
 ## Contact
 We are very happy to answer any questions or consider suggestions you might have about the text. Just email one of us! <br>
 <a href="mailto:hall@champlain.edu">Brian</a> (author) or <a href="mailto:beth.golub@prospectpressvt.com">Beth</a> (publisher)
