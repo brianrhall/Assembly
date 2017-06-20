@@ -20,7 +20,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 | [Prospect Press](http://www.prospectpressvt.com/) | eBook | Print Book (306 pages) |
 |----------------|-------|------------|
 | Price     | $44 | $68 |
-| Sources   | Redshelf.com, Vital Source | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka), [CreateSpace](https://www.createspace.com/7060151), [Amazon Europe](https://www.amazon.de/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329/) |
+| Sources   | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka), [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka), [CreateSpace](https://www.createspace.com/7060151), [Amazon Europe](https://www.amazon.de/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329/) |
 | ISBN      | 978-1-943153-31-2 | 978-1-943153-32-9 |
 
 Is this book for you? Checkout the [Preface](./content/Assembly_Preface_GitHub.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./content/Assembly_Ch_3_GitHub.pdf), and the free [Appendices](#appendices).
