@@ -1,6 +1,6 @@
 # Book Links
 
-### This is an organized collection of all the book links. You're welcome.
+### This is an organized collection of all the links in the book. You're welcome.
 
 ## Front Matter
 -  Book website: [http://www.prospectpressvt.com/titles/hall-assembly-programming/]()
