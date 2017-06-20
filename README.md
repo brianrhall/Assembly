@@ -89,7 +89,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 - [How do I assemble and link on Linux?](#linux)
 - [Do I use the .globl or .global directive for *main* in GAS?](#global)
-- [What if a web link in the book is broken? / Is there a place with all active web links?](#links)
+- [What if a web link in the book is broken? / Is there a place with all active web links?](#book_links)
 
 <a name="linux"></a>
 #### How do I assemble and link on Linux?
@@ -112,7 +112,7 @@ Here are some example `nasm` and `as` commands to assemble and link in Linux. Th
 #### Do I use the .globl or .global directive for *main* in GAS?
 Either. In the past, GAS used the .globl directive (without the *a*), but eventually updated the assembler to accept .global as well. We use .globl in the GAS examples and programs in the book.
 
-<a name="links"></a>
+<a name="book_links"></a>
 #### What if a web link in the book is broken? / Is there a place with all active web links?
 Yes, try here -> [Book_Links.md](./Book_Links.md), which is in the file list at the top of the README.
 
