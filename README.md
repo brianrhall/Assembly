@@ -114,7 +114,7 @@ Either. In the past, GAS used the .globl directive (without the *a*), but eventu
 
 <a name="book_links"></a>
 #### What if a web link in the book is broken? / Is there a place with all active web links?
-Yes, try here -> [Book_Links.md](./Book_Links.md), which is in the file list at the top of the README.
+Yes, try here -> [Book_Links.md](./Book_Links.md), which is in the file list at the top of the README. We would also appreciate if you report any broken links.
 
 ## Errata
 - Errors have yet to be found...
