@@ -57,6 +57,7 @@ Appendices A, B, E, and I are available for free.
 - YouTube Channel (Book Videos): [https://www.youtube.com/channel/UCr0svQEez3UQvlj6-5EYS6w](https://www.youtube.com/channel/UCr0svQEez3UQvlj6-5EYS6w)
 - Brian's Website: [http://www.brianrhall.net](http://www.brianrhall.net)
 - Kevin's Website: [http://www.kevinslonka.com](http://www.kevinslonka.com)
+- Organized collection of all links in APCASE: [Book_Links.md]()
 
 ---
 
