@@ -3,16 +3,16 @@
 ### This is an organized collection of all the links in the book. You're welcome.
 
 ## Front Matter
--  Book website: [http://www.prospectpressvt.com/titles/hall-assembly-programming/]()
--  Book repository: [https://github.com/brianrhall/Assembly]()-  Instructor resources: [http://prospectpressvt.com/titles/hall-assembly-programming/instructor-resources/]()-  Student resources: [http://prospectpressvt.com/titles/hall-assembly-programming/student-resources/]()-  Brian’s website: [http://www.brianrhall.net]()-  Kevin’s website: [http://www.kevinslonka.com]()
+-  Book website: [http://www.prospectpressvt.com/titles/hall-assembly-programming/](http://www.prospectpressvt.com/titles/hall-assembly-programming/)
+-  Book repository: [https://github.com/brianrhall/Assembly](https://github.com/brianrhall/Assembly)-  Instructor resources: [http://prospectpressvt.com/titles/hall-assembly-programming/instructor-resources/](http://prospectpressvt.com/titles/hall-assembly-programming/instructor-resources/)-  Student resources: [http://prospectpressvt.com/titles/hall-assembly-programming/student-resources/](http://prospectpressvt.com/titles/hall-assembly-programming/student-resources/)-  Brian’s website: [http://www.brianrhall.net](http://www.brianrhall.net)-  Kevin’s website: [http://www.kevinslonka.com](http://www.brianrhall.net)
 
 
 ## Chapter 1: Language and Data Fundamentals
 ###### Wikis
--  [https://en.wikibooks.org/wiki/X86_Assembly]() (Assembly Programming Overview)-  [https://en.wikibooks.org/wiki/X86_Disassembly]() (Assembler and Disassembler Overview)
+-  [https://en.wikibooks.org/wiki/X86_Assembly](https://en.wikibooks.org/wiki/X86_Assembly) (Assembly Programming Overview)-  [https://en.wikibooks.org/wiki/X86_Disassembly](https://en.wikibooks.org/wiki/X86_Disassembly) (Assembler and Disassembler Overview)
 
 ###### Developer
--  [http://www.unicode.org]()-  [http://www.unicode.org/charts/PDF/U0000.pdf]() (ASCII)-  [http://devimages.apple.com/llvm/videos/LLVM\_Assembler\_Infrastructure.mov]() (LLVM-MC Overview)
+-  [http://www.unicode.org](http://www.unicode.org)-  [http://www.unicode.org/charts/PDF/U0000.pdf](http://www.unicode.org/charts/PDF/U0000.pdf) (ASCII)-  [http://devimages.apple.com/llvm/videos/LLVM\_Assembler\_Infrastructure.mov](http://devimages.apple.com/llvm/videos/LLVM\_Assembler\_Infrastructure.mov) (LLVM-MC Overview)
 ###### Videos-  Video 1.1: Welcome ([https://youtu.be/HBwgXY88hyc]())-  Video 1.2: Signing Integers ([https://youtu.be/vHijiZMbj9E]())-  Video 1.3: A 3-bit Computer Example ([https://youtu.be/gYczcmDywag]())
 
 ###### In text
