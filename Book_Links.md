@@ -77,7 +77,7 @@
 
 ## Chapter 10: Advanced Processor and System Architecture
 
-######Wikis-  [https://en.wikipedia.org/wiki/X86#Operating_modes](https://en.wikipedia.org/wiki/X86#Operating_modes)-  [https://en.wikipedia.org/wiki/X86\_memory\_segmentation](https://en.wikipedia.org/wiki/X86\_memory\_segmentation)
+###### Wikis-  [https://en.wikipedia.org/wiki/X86#Operating_modes](https://en.wikipedia.org/wiki/X86#Operating_modes)-  [https://en.wikipedia.org/wiki/X86\_memory\_segmentation](https://en.wikipedia.org/wiki/X86\_memory\_segmentation)
 -  [https://en.wikipedia.org/wiki/System_call](https://en.wikipedia.org/wiki/System_call)-  [https://en.wikipedia.org/wiki/Global\_Descriptor\_Table](https://en.wikipedia.org/wiki/Global\_Descriptor\_Table)-  [http://wiki.osdev.org/GDT_Tutorial](http://wiki.osdev.org/GDT_Tutorial)-  [https://en.wikipedia.org/wiki/Interrupt](https://en.wikipedia.org/wiki/Interrupt)-  [http://wiki.osdev.org/Interrupt\_Descriptor\_Table](http://wiki.osdev.org/Interrupt\_Descriptor\_Table)###### Developer-  [http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html) (Intel Developer Manuals)-  [https://github.com/hjl-tools/x86-psABI/wiki/X86-psABI](https://github.com/hjl-tools/x86-psABI/wiki/X86-psABI) (AMD64 ABI)-  [https://msdn.microsoft.com/library/windows/desktop/hh920508.aspx](https://msdn.microsoft.com/library/windows/desktop/hh920508.aspx) (Windows API Index)
 
 ###### In text (Assignment 10.3)
