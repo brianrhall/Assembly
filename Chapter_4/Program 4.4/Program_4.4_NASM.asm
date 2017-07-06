@@ -10,7 +10,7 @@ global _main
 _main:
 
 ; Load using byte offsets
-mov eax, array
+mov eax, [array]
 mov ebx, [array + 4]
 
 ; Save using indices

@@ -117,7 +117,9 @@ Either. In the past, GAS used the .globl directive (without the *a*), but eventu
 Yes, try here -> [Book_Links.md](./Book_Links.md), which is in the file list at the top of the README. We would also appreciate if you report any broken links.
 
 ## Errata
-- Errors have yet to be found...
+- <b>Chapter 4, p. 76, Program 4.4 - NASM</b>:
+the line `mov eax, array` should be `mov eax, [array]`. Fixed in repository.
+- more errors yet to be found...
 
 ## Contact
 We are very happy to answer any questions or consider suggestions you might have about the text. Just email one of us! <br>
