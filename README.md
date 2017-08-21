@@ -14,7 +14,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 - Brief introduction and code examples for other modern architectures like ARM, AVR, RISC-V, and z/Architecture.
 - The Appendices provide practical information and guide students in learning Assembly programming.
 - Chapter Supplements provide a deeper dive on topics as necessary.
-- Links to wikis, developer resources, and videos are provided to assist in further exploration of topics.
+- [Links](./Book_Links.md) to wikis, developer resources, and videos are provided to assist in further exploration of topics.
 - Attention, Programming, and Learning notes are placed throughout the text to guide the reader in beneficial ways.
 
 | [Prospect Press](http://www.prospectpressvt.com/) | eBook | Print Book (306 pages) |
@@ -90,6 +90,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 - [How do I assemble and link on Linux?](#linux)
 - [Do I use the .globl or .global directive for *main* in GAS?](#global)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](#book_links)
+- [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console_IO.md)
 
 <a name="linux"></a>
 #### How do I assemble and link on Linux?
