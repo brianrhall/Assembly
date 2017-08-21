@@ -25,10 +25,10 @@ So…how do we do this? *Chapter 10* provides the walkthrough and really highlig
 4. <b>The first time a student may really want to do console output is if they do Assignment 5.3 in *Chapter 5*.</b> In the Instructor Materials we have this note (updated for all assemblers): "Our solutions for Programs 5.3 (Challenge Assignment) and 7.2 use `INT` in macOS (GAS) and Linux (NASM) and the Windows API (MASM) to print to console. The solutions are commented, but students would have to look ahead to *Chapter 10* for more information should they choose to complete the assignments. This is indicated in the Assignment 5.3 prompt in the book."
 
 	###### Assignment 5.3 Prepare for output! (Challenge Assignment)
-"Write a program that takes a normal 32-bit numeric value (e.g.,`0xFFFFh`) and converts it to a byte array such that it can be printed to the screen using a system call method. A loop is necessary for converting the numeric value to ASCII for output. Again, use a system call (e.g., `int 80h`) to print the value to the console (see *Chapter 10*). Calling external functions (e.g., `printf`) is not allowed for this assignment."
+	"Write a program that takes a normal 32-bit numeric value (e.g.,`0xFFFFh`) and converts it to a byte array such that it can be printed to the screen using a system call method. A loop is necessary for converting the numeric value to ASCII for output. Again, use a system call (e.g., `int 80h`) to print the value to the console (see *Chapter 10*). Calling external functions (e.g., `printf`) is not allowed for this assignment."
 
 	###### Assignment 7.2 LOUD NOISES!
-"Write a program, using the appropriate string primitive instructions, that iterates through the string "I DON'T KNOW WHAT WE'RE YELLING ABOUT!" and converts each character to its lowercase counterpart and stores the resulting string in another location."
+	"Write a program, using the appropriate string primitive instructions, that iterates through the string "I DON'T KNOW WHAT WE'RE YELLING ABOUT!" and converts each character to its lowercase counterpart and stores the resulting string in another location."
 
 	Assignment 7.2 can be extended by requiring students to print the string to console to show that the case has changed. Doing so requires a system call to print (similar to Assignment 5.3), which uses information from *Chapter 10*.
 
