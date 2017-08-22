@@ -15,12 +15,13 @@ WriteConsoleA PROTO,
 	      lpBuffer:PTR BYTE,		; pointer to buffer
 	      nNumberOfCharsToWrite:DWORD, 	; size of buffer
 	      lpNumberOfCharsWritten:PTR DWORD, ; num bytes written
-	      lpReserved:DWORD		        ; not used (NULL)
+	      lpReserved:DWORD			; not used (NULL)
 ExitProcess PROTO, dwExitCode:DWORD
 
 .data
-bytesWritten DWORD 0				; for WriteConsoleA
-stdHandle DWORD 0				; for WriteConsoleA
+bytesWritten DWORD 0			; for WriteConsoleA
+stdHandle DWORD 0			; for WriteConsoleA
+len DWORD 0
 s1 BYTE "Hello Universe", 13, 10, 0
 lenS1 = ($ - s1)
 
@@ -28,15 +29,16 @@ lenS1 = ($ - s1)
 _main PROC
 
 print:
- 				; get STDOUT handle
-  	push -11		; request STD_OUTPUT_HANDLE (-11)
-  	call GetStdHandle	; call WinAPI to get console handle
-  	mov stdHandle, eax	; save stdHandle
+ 					; get STDOUT handle
+  	push -11			; request STD_OUTPUT_HANDLE (-11)
+  	call GetStdHandle		; call WinAPI to get console handle
+  	mov stdHandle, eax		; save stdHandle
 
   	push 0				; reserved, push NULL
 	push OFFSET bytesWritten	; bytes written
-	push lenS2			; bytes to write
-	push OFFSET s2			; string address
+	mov eax, lenS1
+	push eax			; bytes to write
+	push OFFSET s1			; string address
 	push stdHandle			; STD_OUPUT_HANDLE
   	call WriteConsoleA		; call win api to write text to console
 

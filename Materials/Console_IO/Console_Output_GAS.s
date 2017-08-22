@@ -5,7 +5,7 @@
 # Uses system call information from Chapter 10
 
 .data
-s1: .ascii "Hello Universe\0"
+s1: .ascii "Hello Universe\n\0"
 lenS1: .long (. - s1)
 
 .text
