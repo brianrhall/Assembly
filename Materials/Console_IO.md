@@ -1,8 +1,8 @@
-# Console Input/Output
+# Console Input/Output [Video](https://youtu.be/rAAti1_jzeY)
 
 #### What if students or instructors want to be able to perform console Input/Output (I/O) before Chapter 6 and/or Chapter 10?
 
-We have provided these [console output code examples](./Console_IO/) and video (coming soon) for instructors/students who want to introduce/learn the ability to do console I/O as early as *Chapter 3*. However, keep in mind that using functions to perform system/API calls will not be fully understood until working through *Chapters 6 and 10*.
+We have provided these [console output code examples](./Console_IO/) and [video](https://youtu.be/rAAti1_jzeY) for instructors/students who want to introduce/learn the ability to do console I/O as early as *Chapter 3*. However, keep in mind that using functions to perform system/API calls will not be fully understood until working through *Chapters 6 and 10*.
 
 ###### Background:
 

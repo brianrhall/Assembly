@@ -21,7 +21,6 @@ ExitProcess PROTO, dwExitCode:DWORD
 .data
 bytesWritten DWORD 0			; for WriteConsoleA
 stdHandle DWORD 0			; for WriteConsoleA
-len DWORD 0
 s1 BYTE "Hello Universe", 13, 10, 0
 lenS1 = ($ - s1)
 
