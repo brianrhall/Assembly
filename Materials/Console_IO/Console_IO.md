@@ -2,7 +2,7 @@
 
 #### What if students or instructors want to be able to perform console Input/Output (I/O) before Chapter 6 and/or Chapter 10?
 
-We have provided these [console output code examples](./Console_IO/) and [video](https://youtu.be/rAAti1_jzeY) for instructors/students who want to introduce/learn the ability to do console I/O as early as *Chapter 3*. However, keep in mind that using functions to perform system/API calls will not be fully understood until working through *Chapters 6 and 10*.
+We have provided these [console output code examples](../Console_IO/) and [video](https://youtu.be/rAAti1_jzeY) for instructors/students who want to introduce/learn the ability to do console I/O as early as *Chapter 3*. However, keep in mind that using functions to perform system/API calls will not be fully understood until working through *Chapters 6 and 10*.
 
 ###### Background:
 
@@ -32,7 +32,7 @@ So…how do we do this? *Chapter 10* provides the walkthrough and really highlig
 
 	Assignment 7.2 can be extended by requiring students to print the string to console to show that the case has changed. Doing so requires a system call to print (similar to Assignment 5.3), which uses information from *Chapter 10*.
 
-	<b>If you want to teach/learn console I/O earlier in the term or book, use the [console output code examples](./Console_IO/) on this page to get started, which has a single string that prints to console.</b> Examine how it works. Students do not have to understand everything about it until further along in the text (just like the exit function), but with this simple working example students can cut and paste the code for basic use given temporary/minimal explanation. The code works for strings…but if you are wanting to print numbers (as in Assignment 5.3) then you also have to deal with ASCII conversion (shown in *Chapter 10* Programs 10.3 and 10.4). Again, sometimes it is easier to get students to use the debugger to step through and check the final state of values in a program. <b>Walking before running in the low-level world.</b>
+	<b>If you want to teach/learn console I/O earlier in the term or book, use the [console output code examples](../Console_IO/) on this page to get started, which has a single string that prints to console.</b> Examine how it works. Students do not have to understand everything about it until further along in the text (just like the exit function), but with this simple working example students can cut and paste the code for basic use given temporary/minimal explanation. The code works for strings…but if you are wanting to print numbers (as in Assignment 5.3) then you also have to deal with ASCII conversion (shown in *Chapter 10* Programs 10.3 and 10.4). Again, sometimes it is easier to get students to use the debugger to step through and check the final state of values in a program. <b>Walking before running in the low-level world.</b>
 
 5. <b>You can also do I/O using familiar C++ code, which we show in *Chapter 6* and is necessary for Assignment 6.1.</b> So even if you do not cover system I/O until *Chapter 10*, students will learn how to do I/O with a mix of C++ and Assembly as early as *Chapter 6*.
 
