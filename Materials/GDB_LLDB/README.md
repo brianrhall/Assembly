@@ -6,8 +6,9 @@ Watch our [video](https://youtu.be/oMp_R1hWLtM) which goes through the code exam
 
 [<img src = "https://img.youtube.com/vi/oMp_R1hWLtM/0.jpg" alt = "Materials Video 3" width="200" border="0" hspace="0" vspace="0">](https://www.youtube.com/watch?v=oMp_R1hWLtM)
 
-Resources:<br>
-- [Appendix D: Command-line Debugging with GDB](../content/Assembly_App_B_GitHub.pdf)<br>
+Resources:
+
+- Appendix D: Command-line Debugging with GDB
 - [https://lldb.llvm.org/lldb-gdb.html](https://lldb.llvm.org/lldb-gdb.html)
 
 1. examine registers
