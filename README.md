@@ -92,20 +92,18 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 - [Do I use the .globl or .global directive for *main* in GAS?](#global)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](#book_links)
 - [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console\_IO/Console\_IO.md)
-- [How do the authors pace a semester using the text? / Is there an example course outline?](./Materials/WeeklyOutlineExample/WeeklyOutlineExample.md)
-- [How do I use GDB or LLDB for command-line debugging?](./Materials/GDB\_LLDB/README.md)
+- [How do the authors pace a semester using the text? / Is there an example course outline?](./Materials/WeeklyOutlineExample/)
+- [How do I use GDB or LLDB for command-line debugging?](./Materials/GDB\_LLDB/)
 
 <a name="why"></a>
 #### Why learn Assembly? Is it even used anymore?
-<i>Is Assembly used anymore?</i> Yes. Every bit of code must be translated to run on a processor in its native instruction set. Assembly language is necessary for running software on hardware.
-
-<i>Why learn Assembly?</i> More explanation can be found in the main text, but here are some abbreviated notes from Chapter 1.
+Yes. Every bit of code must be translated to run on a processor in its native instruction set. Assembly language is necessary for running software on hardware. More explanation can be found in the main text, but here are some abbreviated notes from Chapter 1.
 
 - Enhance your understanding of computer operation 
 - Debugging
 - Make informed implementation decisions
 - Remove layers of abstraction from tasks- Areas of software development that rely on intimate knowledge of Assembly, such as programming forembedded devices, programming device drivers, and system (OS) programming
-- Talk directly to the processor...come on, that's cool
+- Talking directly to the processor...come on, that's cool
 
 <a name="linux"></a>
 #### How do I assemble and link on Linux?
