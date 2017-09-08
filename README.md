@@ -91,7 +91,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 - [How do I assemble and link on Linux?](#linux)
 - [Do I use the .globl or .global directive for *main* in GAS?](#global)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](#book_links)
-- [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console\_IO/Console\_IO.md)
+- [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console\_IO/)
 - [How do the authors pace a semester using the text? / Is there an example course outline?](./Materials/WeeklyOutlineExample/)
 - [How do I use GDB or LLDB for command-line debugging?](./Materials/GDB\_LLDB/)
 
