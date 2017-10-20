@@ -133,6 +133,9 @@ Yes, try here -> [Book_Links.md](./Book_Links.md), which is in the file list at 
 ## Errata
 - <b>Chapter 4, p. 76, Program 4.4 - NASM</b>:
 the line `mov eax, array` should be `mov eax, [array]`. Fixed in repository.
+- <b>Chapter 6, p. 98, 8th bullet point</b>: <br><u>Incorrect</u>: "The least significant byte is stored at the start of the address (higher) and the most significant byte is stored at the end (lower)."
+<br><u>Correct</u>: "The least significant byte is stored at the start of the address (lower physcial address) and the most significant byte is stored at the end (higher physical address)."
+- <b>Chapter 6, pp. 102-105, Figures 6.2 - 6.6</b>: the line under <u>Instructions in memory</u> `0x1fa7: int $-0x80` was the visual output (and a bug) in versions of Xcode/LLVM at the time of writing the 1st Edition. The negative sign is incorrect. The bug has since been fixed and the figures will be updated in the next edition update to `0x1fa7: int $0x80`.
 - more errors yet to be found...
 
 ## Contact
