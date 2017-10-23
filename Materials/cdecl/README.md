@@ -104,7 +104,7 @@ Notice that the disassembly is in AT&T syntax by default in GDB on Linux, even w
 <th>NASM</th>
 </tr>
 <tr>
-<td><pre style="border:0"><span class="inner-pre" style="font-size: 9pt">
+<td><pre style="border:0">
 Breakpoint 1, 0x08048074 in _main ()
 <b>(gdb) disassemble _main</b>
 Dump of assembler code for function _main:
@@ -133,8 +133,8 @@ Dump of assembler code for function _sum:
    0x080480af <+13>:	pop    %ebp
    0x080480b0 <+14>:	ret    
 End of assembler dump.
-</span></pre></td>
-<td valign="top"><pre style="border:0"><span class="inner-pre" style="font-size: 9pt">
+</pre></td>
+<td valign="top"><pre style="border:0">
 Breakpoint 1, 0x08048080 in _main ()
 <b>(gdb) disassemble _main</b>
 Dump of assembler code for function _main:
@@ -163,14 +163,14 @@ Dump of assembler code for function _sum:
    0x080480bb <+13>:	pop    %ebp
    0x080480bc <+14>:	ret    
 End of assembler dump.
-</span></pre></td>
+</pre></td>
 </tr>
 </table>
 
 ##### Figure 6.2 - Before paramters pushed
 <table>
 <tr>
-<th style="font-size:10pt">GAS (eip -> 0x0804807f) </th>
+<th><span style="font-size: 10pt">GAS (eip -> 0x0804807f)</span></th>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1d0:	0x00000001	0xffffd392	0x00000000	0xffffd3aa
 0xffffd1e0:	0xffffd3b5	0xffffd3c7	0xffffd3f7	0xffffd40d
