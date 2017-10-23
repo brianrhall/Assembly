@@ -168,14 +168,14 @@ End of assembler dump.
 </table>
 
 ##### Figure 6.2 - Before paramters pushed
-<table style="font-size:10pt;">
+<table>
 <tr>
-<td><strong>GAS</strong> (eip -> 0x0804807f)</td>
+<td><strong>GAS</strong><br> (eip -> 0x0804807f)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1d0:	0x00000001	0xffffd392	0x00000000	0xffffd3aa
 0xffffd1e0:	0xffffd3b5	0xffffd3c7	0xffffd3f7	0xffffd40d </pre></td></tr>
 <tr>
-<td><strong>NASM</strong> (eip -> 0x0804808b)</td>
+<td><strong>NASM</strong><br> (eip -> 0x0804808b)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1c0:	0x00000001	0xffffd38f	0x00000000	0xffffd3a8
 0xffffd1d0:	0xffffd3b3	0xffffd3c5	0xffffd3f5	0xffffd40b </pre></td></tr></table>
@@ -184,12 +184,12 @@ End of assembler dump.
 Notice the parameters (2 and 4) on the stack.
 <table>
 <tr>
-<td><strong>GAS</strong> (eip -> 0x0804808b)</td>
+<td><strong>GAS</strong><br> (eip -> 0x0804808b)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1c8:	<span style="color:red;">0x00000002	0x00000004</span>	0x00000001	0xffffd392
 0xffffd1d8:	0x00000000	0xffffd3aa	0xffffd3b5	0xffffd3c7 </pre></td></tr>
 <tr>
-<td><strong>NASM</strong> (eip -> 0x08048097)</td>
+<td><strong>NASM</strong><br> (eip -> 0x08048097)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1b8:	<span style="color:red;">0x00000002	0x00000004</span>	0x00000001	0xffffd38f
 0xffffd1c8:	0x00000000	0xffffd3a8	0xffffd3b3	0xffffd3c5 </pre></td></tr></table>
@@ -198,12 +198,12 @@ Notice the parameters (2 and 4) on the stack.
 Notice the return address (i.e., the memory address after the CALL) is automatically pushed on the stack.
 <table>
 <tr>
-<td><strong>GAS</strong> (eip -> 0x080480a2)</td>
+<td><strong>GAS</strong><br> (eip -> 0x080480a2)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1c4:	<span style="color:blue;">0x08048090</span>	0x00000002	0x00000004	0x00000001
 0xffffd1d4:	0xffffd392	0x00000000	0xffffd3aa	0xffffd3b5 </pre></td></tr>
 <tr>
-<td><strong>NASM</strong> (eip -> 0x080480ae)</td>
+<td><strong>NASM</strong><br> (eip -> 0x080480ae)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1b4:	<span style="color:blue;">0x0804809c</span>	0x00000002	0x00000004	0x00000001
 0xffffd1c4:	0xffffd38f	0x00000000	0xffffd3a8	0xffffd3b3 </pre></td></tr></table>
@@ -212,12 +212,12 @@ Notice the return address (i.e., the memory address after the CALL) is automatic
 Notice that Linux automatically separates the stack frames with a 0x0 and then pushes ebx (5) on the stack.
 <table>
 <tr>
-<td><strong>GAS</strong> (eip -> 0x080480a5)</td>
+<td><strong>GAS</strong><br> (eip -> 0x080480a5)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1bc:	<span style="color:red;">0x00000005	0x00000000</span>	0x08048090	0x00000002
 0xffffd1cc:	0x00000004	0x00000001	0xffffd392	0x00000000 </pre></td></tr>
 <tr>
-<td><strong>NASM</strong> (eip -> 0x080480b1)</td>
+<td><strong>NASM</strong><br> (eip -> 0x080480b1)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1ac:	<span style="color:red;">0x00000005	0x00000000</span>	0x0804809c	0x00000002
 0xffffd1bc:	0x00000004	0x00000001	0xffffd38f	0x00000000 </pre></td></tr></table>
@@ -226,12 +226,12 @@ Notice that Linux automatically separates the stack frames with a 0x0 and then p
 Notice that execution jumped to the addresses implicitly pushed on the stack with the CALL instruction (Figure 6.4). Now, what remains is the need to clean up stack (the parameters that were pushed: 2 and 4).
 <table>
 <tr>
-<td><strong>GAS</strong> (eip -> <span style="color:blue;">0x08048090</span>)</td>
+<td><strong>GAS</strong><br> (eip -> <span style="color:blue;">0x08048090</span>)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1c8:	0x00000002	0x00000004	0x00000001	0xffffd392
 0xffffd1d8:	0x00000000	0xffffd3aa	0xffffd3b5	0xffffd3c7 </pre></td></tr>
 <tr>
-<td><strong>NASM</strong> (eip -> <span style="color:blue;">0x0804809c</span>)</td>
+<td><strong>NASM</strong><br> (eip -> <span style="color:blue;">0x0804809c</span>)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1b8:	0x00000002	0x00000004	0x00000001	0xffffd38f
 0xffffd1c8:	0x00000000	0xffffd3a8	0xffffd3b3	0xffffd3c5 </pre></td></tr></table>
