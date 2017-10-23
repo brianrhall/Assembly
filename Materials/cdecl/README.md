@@ -108,9 +108,9 @@ Notice that the disassembly is in AT&T syntax by default in GDB on Linux, even w
 Breakpoint 1, 0x08048074 in _main ()
 <b>(gdb) disassemble _main</b>
 Dump of assembler code for function _main:
-=> 0x08048074 <+0>:		mov    $0xa,%eax
-   0x08048079 <+5>:		dec    %eax
-   0x0804807a <+6>:		mov    $0x5,%ebx
+=> 0x08048074 <+0>:	mov    $0xa,%eax
+   0x08048079 <+5>:	dec    %eax
+   0x0804807a <+6>:	mov    $0x5,%ebx
    0x0804807f <+11>:	pushl  0x80490b5
    0x08048085 <+17>:	pushl  0x80490b1
    0x0804808b <+23>:	call   0x80480a2 <_sum>
@@ -123,11 +123,11 @@ Dump of assembler code for function _main:
 End of assembler dump.
 <b>(gdb) disassemble _sum</b>
 Dump of assembler code for function _sum:
-   0x080480a2 <+0>:		push   %ebp
-   0x080480a3 <+1>:		mov    %esp,%ebp
-   0x080480a5 <+3>:		push   %ebx
-   0x080480a6 <+4>:		mov    0x8(%ebp),%ebx
-   0x080480a9 <+7>:		mov    0xc(%ebp),%eax
+   0x080480a2 <+0>:	push   %ebp
+   0x080480a3 <+1>:	mov    %esp,%ebp
+   0x080480a5 <+3>:	push   %ebx
+   0x080480a6 <+4>:	mov    0x8(%ebp),%ebx
+   0x080480a9 <+7>:	mov    0xc(%ebp),%eax
    0x080480ac <+10>:	add    %ebx,%eax
    0x080480ae <+12>:	pop    %ebx
    0x080480af <+13>:	pop    %ebp
@@ -138,9 +138,9 @@ End of assembler dump.
 Breakpoint 1, 0x08048080 in _main ()
 <b>(gdb) disassemble _main</b>
 Dump of assembler code for function _main:
-=> 0x08048080 <+0>:		mov    $0xa,%eax
-   0x08048085 <+5>:		dec    %eax
-   0x08048086 <+6>:		mov    $0x5,%ebx
+=> 0x08048080 <+0>:	mov    $0xa,%eax
+   0x08048085 <+5>:	dec    %eax
+   0x08048086 <+6>:	mov    $0x5,%ebx
    0x0804808b <+11>:	pushl  0x80490c4
    0x08048091 <+17>:	pushl  0x80490c0
    0x08048097 <+23>:	call   0x80480ae <_sum>
@@ -153,11 +153,11 @@ Dump of assembler code for function _main:
 End of assembler dump.
 <b>(gdb) disassemble _sum</b>
 Dump of assembler code for function _sum:
-   0x080480ae <+0>:		push   %ebp
-   0x080480af <+1>:		mov    %esp,%ebp
-   0x080480b1 <+3>:		push   %ebx
-   0x080480b2 <+4>:		mov    0x8(%ebp),%ebx
-   0x080480b5 <+7>:		mov    0xc(%ebp),%eax
+   0x080480ae <+0>:	push   %ebp
+   0x080480af <+1>:	mov    %esp,%ebp
+   0x080480b1 <+3>:	push   %ebx
+   0x080480b2 <+4>:	mov    0x8(%ebp),%ebx
+   0x080480b5 <+7>:	mov    0xc(%ebp),%eax
    0x080480b8 <+10>:	add    %ebx,%eax
    0x080480ba <+12>:	pop    %ebx
    0x080480bb <+13>:	pop    %ebp
@@ -167,7 +167,6 @@ End of assembler dump.
 </tr>
 </table>
 
-<br>
 #####Figure 6.2 - Before paramters pushed
 <table>
 <tr>
