@@ -167,7 +167,7 @@ End of assembler dump.
 </tr>
 </table>
 
-#####Figure 6.2 - Before paramters pushed
+##### Figure 6.2 - Before paramters pushed
 <table>
 <tr>
 <th>GAS (eip -> 0x0804807f) </th>
@@ -185,9 +185,7 @@ End of assembler dump.
 </tr>
 </table>
 
-<br>
-#####Figure 6.3 - After parameters pushed
-
+##### Figure 6.3 - After parameters pushed
 Notice the parameters (2 and 4) on the stack.
 <table>
 <tr>
@@ -204,9 +202,7 @@ Notice the parameters (2 and 4) on the stack.
 </tr>
 </table>
 
-<br>
-#####Figure 6.4 - After CALL instruction
-
+##### Figure 6.4 - After CALL instruction
 Notice the return address (i.e., the memory address after the CALL) is automatically pushed on the stack.
 <table>
 <tr>
@@ -223,9 +219,7 @@ Notice the return address (i.e., the memory address after the CALL) is automatic
 </tr>
 </table>
 
-<br>
-#####Figure 6.5 - After establishing frame and saving ebx
-
+##### Figure 6.5 - After establishing frame and saving ebx
 Notice that Linux automatically separates the stack frames with a 0x0 and then pushes ebx (5) on the stack.
 <table>
 <tr>
@@ -242,9 +236,7 @@ Notice that Linux automatically separates the stack frames with a 0x0 and then p
 </tr>
 </table>
 
-<br>
-#####Figure 6.6 - After RET instruction
-
+##### Figure 6.6 - After RET instruction
 Notice that execution jumped to the addresses implicitly pushed on the stack with the CALL instruction (Figure 6.4). Now, what remains is the need to clean up stack (the parameters that were pushed: 2 and 4).
 <table>
 <tr>
