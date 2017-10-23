@@ -94,6 +94,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 - [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console\_IO/)
 - [How do the authors pace a semester using the text? / Is there an example course outline?](./Materials/WeeklyOutlineExample/)
 - [How do I use GDB or LLDB for command-line debugging?](./Materials/GDB\_LLDB/)
+- [Are there various syntax examples of the Chapter 6 detailed cdecl walkthough?](./Materials/cdecl/README.md)
 
 <a name="why"></a>
 #### Why learn Assembly? Is it even used anymore?
@@ -135,7 +136,7 @@ Yes, try here -> [Book_Links.md](./Book_Links.md), which is in the file list at 
 the line `mov eax, array` should be `mov eax, [array]`. Fixed in repository.
 - **Chapter 6, p. 98, 8th bullet point**: <br>*Incorrect*: "The least significant byte is stored at the start of the address (higher) and the most significant byte is stored at the end (lower)."
 <br>*Correct*: "The least significant byte is stored at the start of the address (lower physcial address) and the most significant byte is stored at the end (higher physical address)."
-- **Chapter 6, pp. 102-105, Figures 6.2 - 6.6**: the line under *Instructions in memory* `0x1fa7: int $-0x80` was the visual output (and a bug) in versions of Xcode/LLVM at the time of writing the 1st Edition. The negative sign is incorrect. The bug has since been fixed and the figures will be updated in the next edition update to `0x1fa7: int $0x80`.
+- **Chapter 6, pp. 102-105, Figures 6.2 - 6.6**: the line under *Instructions in memory* `0x1fa7: int $-0x80` was the disassembly visual output (and a bug) in versions of Xcode/LLVM at the time of writing the 1st Edition. The negative sign is incorrect. The bug has since been fixed and the figures will be updated in the next edition update to `0x1fa7: int $0x80`.
 - more errors yet to be found...
 
 ## Contact

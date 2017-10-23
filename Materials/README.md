@@ -17,3 +17,4 @@ Here you will find additional materials and content we provide for the book. The
 	- [GDB\_LLDB\_GAS.s](./GDB\_LLDB/GDB\_LLDB\_GAS.s), [GDB\_LLDB\_NASM.asm](./GDB\_LLDB/GDB\_LLDB\_NASM.asm)
 	- [Example Commands](./GDB\_LLDB/ExampleCommands.txt)
 	- [Materials Video 3](https://youtu.be/oMp_R1hWLtM)
+- [Chapter 6 cdecl walkthrough in various syntaxes](./cdecl/README.md)
