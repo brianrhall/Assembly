@@ -186,7 +186,7 @@ Notice the parameters (2 and 4) on the stack.
 <tr>
 <td><strong>GAS</strong><br> (eip -> 0x0804808b)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
-0xffffd1c8:	<span style="color:red;">0x00000002	0x00000004</span>	0x00000001	0xffffd392
+0xffffd1c8:	<font color="red">0x00000002	0x00000004</font>	0x00000001	0xffffd392
 0xffffd1d8:	0x00000000	0xffffd3aa	0xffffd3b5	0xffffd3c7 </pre></td></tr>
 <tr>
 <td><strong>NASM</strong><br> (eip -> 0x08048097)</td>
