@@ -168,16 +168,16 @@ End of assembler dump.
 </table>
 
 ##### Figure 6.2 - Before paramters pushed
-<table>
+<table style="font-size:10pt">
 <tr>
-<td style="font-size:10pt"><strong>GAS</strong> (eip -> 0x0804807f)</td>
+<td><strong>GAS</strong> (eip -> 0x0804807f)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1d0:	0x00000001	0xffffd392	0x00000000	0xffffd3aa
 0xffffd1e0:	0xffffd3b5	0xffffd3c7	0xffffd3f7	0xffffd40d
 </td>
 </tr>
 <tr>
-<td style="font-size:10pt"><strong>NASM</strong> (eip -> 0x0804808b)</td>
+<td><strong>NASM</strong> (eip -> 0x0804808b)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1c0:	0x00000001	0xffffd38f	0x00000000	0xffffd3a8
 0xffffd1d0:	0xffffd3b3	0xffffd3c5	0xffffd3f5	0xffffd40b
