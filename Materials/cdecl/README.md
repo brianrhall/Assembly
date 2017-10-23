@@ -168,7 +168,7 @@ End of assembler dump.
 </table>
 
 ##### Figure 6.2 - Before paramters pushed
-<table>
+<table style="font-size:10pt;">
 <tr>
 <td><strong>GAS</strong> (eip -> 0x0804807f)</td>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
