@@ -6,7 +6,7 @@ In Chapter 6, to illustrate function calling conventions, we provide a walkthrou
 
 **Figure 6.2**
 
-<img src = "./Figure_6.2.pdf" alt = "Figure 6.2" width="" border="" hspace="" vspace="">
+<img src = "./Figure_6.2.png" alt = "Figure 6.2" width="" border="" hspace="" vspace="">
 
 What follows are Program 6.1 stack and disassembly examples for more environments.
 
@@ -89,9 +89,7 @@ mov eax, [ebp + 12]
 add eax, ebx
 pop ebx
 pop ebp
-ret
-</td></pre>
-</tr>
+ret</td></pre></tr>
 </table>
 
 ### Linux - Program 6.1 Disassembly
