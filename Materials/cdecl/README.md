@@ -170,7 +170,7 @@ End of assembler dump.
 ##### Figure 6.2 - Before paramters pushed
 <table>
 <tr>
-<th><span style="font-size: 10pt">GAS (eip -> 0x0804807f)</span></th>
+<th style="font-size: 10pt !important">GAS (eip -> 0x0804807f)</th>
 <td><pre style="border:0"><b>(gdb) x/8xw $esp</b>
 0xffffd1d0:	0x00000001	0xffffd392	0x00000000	0xffffd3aa
 0xffffd1e0:	0xffffd3b5	0xffffd3c7	0xffffd3f7	0xffffd40d
