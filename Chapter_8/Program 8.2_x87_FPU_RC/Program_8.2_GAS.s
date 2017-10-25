@@ -1,5 +1,5 @@
 # Program 8.2
-# x87 FPU Rounding Control - GAS, Clang/LLVM (32-bit)
+# x87 FPU Rounding Control - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

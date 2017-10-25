@@ -1,5 +1,5 @@
 # Program 10.1
-# Using Segment Selectors - GAS, Clang/LLVM (32-bit)
+# Using Segment Selectors - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data
@@ -18,8 +18,8 @@ movl %ds:array+8, %edx   # third element to edx
 movl %gs, %esi           # gs to esi
 movl $42, %gs:(%esi)     # 42 to gs:(offset in esi)
 movl %gs:(%esi), %edi    # gs:offset to edi
-movl $43, %gs:0x04h      # 43 to gs:offset
-movl %gs:0x04h, %edi     # gs:offset to edi
+movl $43, %gs:0x04       # 43 to gs:offset
+movl %gs:0x04, %edi      # gs:offset to edi
 
 pushl $0
 subl $4, %esp

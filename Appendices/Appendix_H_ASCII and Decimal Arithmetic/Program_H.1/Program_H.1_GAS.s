@@ -1,5 +1,5 @@
 # Program H.1
-# ASCII Adjust after Addition - GAS, Clang/LLVM (32-bit)
+# ASCII Adjust after Addition - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

@@ -1,5 +1,5 @@
 # Program 3.2
-# Working Example - GAS, Clang/LLVM (32-bit)
+# Working Example - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data                             # Section for variable definitions

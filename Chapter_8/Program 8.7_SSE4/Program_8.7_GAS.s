@@ -1,5 +1,5 @@
 # Program 8.7
-# SSE4 - GAS, Clang/LLVM (32-bit)
+# SSE4 - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

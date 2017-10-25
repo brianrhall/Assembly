@@ -1,5 +1,5 @@
 # Program 9.3
-# Addition Macro - GAS, Clang/LLVM (32-bit)
+# Addition Macro - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .macro intAdd dest, source1, source2

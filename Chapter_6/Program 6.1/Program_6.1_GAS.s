@@ -1,5 +1,5 @@
 # Program 6.1
-# Sum Program - GAS, Clang/LLVM (32-bit)
+# Sum Program - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

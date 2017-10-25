@@ -1,5 +1,5 @@
 # Program 8.4
-# SSE Packed Operations - GAS, Clang/LLVM (32-bit)
+# SSE Packed Operations - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

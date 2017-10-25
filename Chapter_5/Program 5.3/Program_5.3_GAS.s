@@ -1,5 +1,5 @@
 # Program 5.3
-# Nested for Loop - GAS, Clang/LLVM (64-bit)
+# Nested for Loop - GAS, Clang/LLVM on macOS (64-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .text

@@ -137,6 +137,9 @@ the line `mov eax, array` should be `mov eax, [array]`. Fixed in repository.
 - **Chapter 6, p. 98, 8th bullet point**: <br>*Incorrect*: "The least significant byte is stored at the start of the address (higher) and the most significant byte is stored at the end (lower)."
 <br>*Correct*: "The least significant byte is stored at the start of the address (lower physcial address) and the most significant byte is stored at the end (higher physical address)."
 - **Chapter 6, pp. 102-105, Figures 6.2 - 6.6**: the line under *Instructions in memory* `0x1fa7: int $-0x80` was the disassembly visual output (and a bug) in versions of Xcode/LLVM at the time of writing the 1st Edition. The negative sign is incorrect. The bug has since been fixed and the figures will be updated in the next edition update to `0x1fa7: int $0x80`.
+- **Chapter 7, p. 122, CMPS (si and di registers flipped)**:
+<br>*Incorrect*: "CMPS compares each corresponding character by performing an implicit subtraction of the character referenced by **(r/e)di** from the character referenced by **(r/e)si**..."
+<br>*Correct*: "CMPS compares each corresponding character by performing an implicit subtraction of the character referenced by **(r/e)si** from the character referenced by **(r/e)di**..."
 - more errors yet to be found...
 
 ## Contact

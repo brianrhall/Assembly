@@ -1,5 +1,5 @@
 # Console Output
-# Materials - GAS, Clang/LLVM (32-bit)
+# Materials - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 # Uses system call information from Chapter 10

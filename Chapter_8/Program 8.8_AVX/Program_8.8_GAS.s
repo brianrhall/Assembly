@@ -1,5 +1,5 @@
 # Program 8.8
-# AVX - GAS, Clang/LLVM (32-bit)
+# AVX - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

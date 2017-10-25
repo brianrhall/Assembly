@@ -1,5 +1,5 @@
 # Program 5.4
-# while Loop - GAS, Clang/LLVM (64-bit)
+# while Loop - GAS, Clang/LLVM on macOS (64-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .text

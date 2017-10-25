@@ -1,5 +1,5 @@
 # Program 4.1
-# Addition and Subtraction - GAS, Clang/LLVM (32-bit)
+# Addition and Subtraction - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

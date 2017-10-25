@@ -1,5 +1,5 @@
 # Program 5.2
-# Looping - GAS, Clang/LLVM (64-bit)
+# Looping - GAS, Clang/LLVM on macOS (64-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .text

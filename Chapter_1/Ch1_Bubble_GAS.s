@@ -1,5 +1,5 @@
 # Chapter 1
-# Assembly Bubble Sort - GAS, Clang/LLVM (32-bit)
+# Assembly Bubble Sort - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

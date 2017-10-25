@@ -1,5 +1,5 @@
 # Program 8.3
-# MMX - GAS, Clang/LLVM (32-bit)
+# MMX - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

@@ -1,5 +1,5 @@
 # Assignment 3.3
-# Syntax Translation - GAS, Clang/LLVM (32-bit)
+# Syntax Translation - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

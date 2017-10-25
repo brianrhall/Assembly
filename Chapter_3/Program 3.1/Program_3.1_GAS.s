@@ -1,5 +1,5 @@
 # Program 3.1
-# Sample Assembly Program - GAS, Clang/LLVM (32-bit)
+# Sample Assembly Program - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

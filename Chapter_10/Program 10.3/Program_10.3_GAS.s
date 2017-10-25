@@ -1,5 +1,5 @@
 # Program 10.3
-# Print Process ID with INT - GAS, Clang/LLVM (32-bit)
+# Print Process ID with INT - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

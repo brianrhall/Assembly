@@ -1,5 +1,5 @@
 # Program 5.1
-# Conditional Jump - GAS, Clang/LLVM (32-bit)
+# Conditional Jump - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

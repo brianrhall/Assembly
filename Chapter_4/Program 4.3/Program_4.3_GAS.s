@@ -1,5 +1,5 @@
 # Program 4.3
-# Negative Division - GAS, Clang/LLVM (32-bit)
+# Negative Division - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .text

@@ -1,5 +1,5 @@
 # Program 4.4
-# Array - GAS, Clang/LLVM (32-bit)
+# Array - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

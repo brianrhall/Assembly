@@ -1,5 +1,5 @@
 # Program 8.6
-# SSE3 - GAS, Clang/LLVM (32-bit)
+# SSE3 - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

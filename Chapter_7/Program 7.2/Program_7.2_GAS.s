@@ -1,5 +1,5 @@
 # Program 7.2
-# SCAS - GAS, Clang/LLVM (32-bit)
+# SCAS - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

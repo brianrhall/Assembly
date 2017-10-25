@@ -209,7 +209,7 @@ Notice the return address (i.e., the memory address after the CALL) is automatic
 0xffffd1c4:	0xffffd38f	0x00000000	0xffffd3a8	0xffffd3b3 </pre></td></tr></table>
 
 ##### Figure 6.5 - After establishing frame and saving ebx
-Notice that Linux automatically separates the stack frames with a 0x0 and then pushes ebx (5) on the stack.
+Notice two more values were pushed on the stack: ebp (main's frame pointer 0x0) and ebx (0x5).
 <table>
 <tr>
 <td><strong>GAS</strong><br> (eip -> 0x080480a5)</td>

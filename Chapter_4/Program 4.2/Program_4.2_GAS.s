@@ -1,5 +1,5 @@
 # Program 4.2
-# Multiplication and Division - GAS, Clang/LLVM (32-bit)
+# Multiplication and Division - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

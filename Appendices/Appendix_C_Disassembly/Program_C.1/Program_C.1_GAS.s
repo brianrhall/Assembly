@@ -1,5 +1,5 @@
 # Program C.1
-# Template - GAS, Clang/LLVM (32-bit)
+# Template - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data

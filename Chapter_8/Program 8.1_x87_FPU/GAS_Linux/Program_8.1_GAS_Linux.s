@@ -1,5 +1,5 @@
 # Program 8.1
-# x87 FPU - GAS, Clang/LLVM (32-bit)
+# x87 FPU - GAS, g++, Clang/LLVM on Linux (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .extern _printFloat

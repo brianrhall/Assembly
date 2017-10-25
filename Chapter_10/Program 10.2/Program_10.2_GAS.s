@@ -1,5 +1,5 @@
 # Program 10.2
-# Debug and System Write Interrupts - GAS, Clang/LLVM (32-bit)
+# Debug and System Write Interrupts - GAS, Clang/LLVM on macOS (32-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .data
