@@ -40,4 +40,4 @@ pop ebp
 ret
 _sum ENDP
 
-END _main
+END

@@ -181,7 +181,7 @@ End of assembler dump.
 0xffffd1d0:	0xffffd3b3	0xffffd3c5	0xffffd3f5	0xffffd40b </pre></td></tr></table>
 
 ##### Figure 6.3 - After parameters pushed
-Notice the parameters (2 and 4) on the stack.
+Notice the parameters (`0x2` and `0x4`) on the stack.
 <table>
 <tr>
 <td><strong>GAS</strong><br> (eip -> 0x0804808b)</td>
@@ -195,7 +195,7 @@ Notice the parameters (2 and 4) on the stack.
 0xffffd1c8:	0x00000000	0xffffd3a8	0xffffd3b3	0xffffd3c5 </pre></td></tr></table>
 
 ##### Figure 6.4 - After CALL instruction
-Notice the return address (i.e., the memory address after the CALL) is automatically pushed on the stack.
+Notice the return address (i.e., the memory address after the CALL) `0x08048090` is automatically pushed on the stack.
 <table>
 <tr>
 <td><strong>GAS</strong><br> (eip -> 0x080480a2)</td>
@@ -209,7 +209,7 @@ Notice the return address (i.e., the memory address after the CALL) is automatic
 0xffffd1c4:	0xffffd38f	0x00000000	0xffffd3a8	0xffffd3b3 </pre></td></tr></table>
 
 ##### Figure 6.5 - After establishing frame and saving ebx
-Notice two more values were pushed on the stack: ebp (main's frame pointer 0x0) and ebx (0x5).
+Notice two more values were pushed on the stack: ***ebp*** (main's frame pointer `0x0`) and ***ebx*** (`0x5`).
 <table>
 <tr>
 <td><strong>GAS</strong><br> (eip -> 0x080480a5)</td>
@@ -223,7 +223,7 @@ Notice two more values were pushed on the stack: ebp (main's frame pointer 0x0) 
 0xffffd1bc:	0x00000004	0x00000001	0xffffd38f	0x00000000 </pre></td></tr></table>
 
 ##### Figure 6.6 - After RET instruction
-Notice that execution jumped to the addresses implicitly pushed on the stack with the CALL instruction (Figure 6.4). Now, what remains is the need to clean up stack (the parameters that were pushed: 2 and 4).
+Notice that execution jumped to the addresses implicitly pushed on the stack with the CALL instruction (Figure 6.4). Now, what remains is the need to clean up stack (the parameters that were pushed: `0x2` and `0x4`).
 <table>
 <tr>
 <td><strong>GAS</strong><br> (eip -> <b style="color:blue;">0x08048090</b>)</td>
@@ -237,6 +237,110 @@ Notice that execution jumped to the addresses implicitly pushed on the stack wit
 0xffffd1c8:	0x00000000	0xffffd3a8	0xffffd3b3	0xffffd3c5 </pre></td></tr></table>
 <br>
 
-### MASM on Windows
+### Windows - Program 6.1
 
-Coming soon!
+<table>
+<tr>
+<th>MASM</th>
+</tr>
+<tr>
+<td><pre style="border:0">
+.386
+.MODEL FLAT, C
+ExitProcess PROTO stdcall, dwExitCode:DWORD
+
+.data
+num1 DWORD 2
+num2 DWORD 4
+
+.code
+_main PROC
+
+mov eax, 10
+dec eax
+mov ebx, 5
+
+push num2
+push num1
+call _sum
+add esp, 8
+
+add eax, ebx
+dec eax
+
+INVOKE ExitProcess, 0
+_main ENDP
+
+_sum PROC
+push ebp
+mov ebp, esp
+push ebx
+mov ebx, [ebp + 8]
+mov eax, [ebp + 12]
+add eax, ebx
+pop ebx
+pop ebp
+ret
+_sum ENDP
+
+END
+</pre></td></table>
+
+### Windows - Program 6.1 Disassembly
+To view this disassembly in Visual Studio, set a breakpoint at the first instruction, `mov eax, 10`, then click on the the "Disassembly" window tab. Under "Viewing Options," we selected "Show address" and "Show symbol names" for this example. Also, remember the addresses will be different each time you run the program.
+
+*Refer to the following disassembly for the addresses used in Figures 6.2 - 6.6 below!*
+
+<table>
+<tr>
+<th>MASM</th>
+</tr>
+<tr>
+<td><pre style="border:0">
+000F101C  mov         eax,0Ah  
+000F1021  dec         eax  
+000F1022  mov         ebx,5  
+000F1027  push        dword ptr [num2 (0F4004h)]  
+000F102D  push        dword ptr [num1 (0F4000h)]  
+000F1033  call        _sum (0F1045h)  
+000F1038  add         esp,8  
+000F103B  add         eax,ebx  
+000F103D  dec         eax  
+000F103E  push        0  
+000F1040  call        _ExitProcess@4 (0F1062h)  
+__sum:
+000F1045  push        ebp  
+000F1046  mov         ebp,esp  
+000F1048  push        ebx  
+000F1049  mov         ebx,dword ptr [ebp+8]  
+000F104C  mov         eax,dword ptr [ebp+0Ch]  
+000F104F  add         eax,ebx  
+000F1051  pop         ebx  
+000F1052  pop         ebp  
+000F1053  ret  
+</pre></td></table>
+
+In the following figures, the "Address:" boxed in red is the address stored in ***esp***. We have also boxed new values pushed on the stack as the instructions execute.
+
+##### Figure 6.2 - Before paramters pushed
+<img src = "./Figure_6.2.jpg" alt = "Figure 6.2" width="800" border="1" hspace="" vspace="">
+
+##### Figure 6.3 - After parameters pushed
+Notice the parameters (`0x2` and `0x4`) on the stack.
+
+<img src = "./Figure_6.3.jpg" alt = "Figure 6.3" width="800" border="1" hspace="" vspace="">
+
+##### Figure 6.4 - After CALL instruction
+Notice the return address (i.e., the memory address after the CALL) `0x000f1038` is automatically pushed on the stack.
+
+<img src = "./Figure_6.4.jpg" alt = "Figure 6.4" width="800" border="1" hspace="" vspace="">
+
+##### Figure 6.5 - After establishing frame and saving ebx
+Notice two more values were pushed on the stack: ***ebp*** (main's frame pointer `0x001ffa94`) and ***ebx*** (`0x5`).
+
+<img src = "./Figure_6.5.jpg" alt = "Figure 6.5" width="800" border="1" hspace="" vspace="">
+
+##### Figure 6.6 - After RET instruction
+Notice that execution jumped to the addresses implicitly pushed on the stack with the CALL instruction (Figure 6.4). Now, what remains is the need to clean up stack (the parameters that were pushed: `0x2` and `0x4`).
+
+<img src = "./Figure_6.6.jpg" alt = "Figure 6.6" width="800" border="1" hspace="" vspace="">
