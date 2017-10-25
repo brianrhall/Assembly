@@ -89,6 +89,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 - [Why learn Assembly? Is it even used anymore?](#why)
 - [How do I assemble and link on Linux?](#linux)
+- [Is the GAS, Clang/LLVM code for macOS or Linux?](#GAS)
 - [Do I use the .globl or .global directive for *main* in GAS?](#global)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](#book_links)
 - [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console\_IO/)
@@ -122,6 +123,10 @@ Here are some example `nasm` and `as` commands to assemble and link in Linux. Th
 | Assemble     | `as --32 -o prog.o prog.s` | `as --64 -o prog.o prog.s` |
 | Link         | `ld -e _main -melf_i386 -o prog prog.o` | `ld -e _main -melf_x86_64 -o prog prog.o` |
 | Exit Routine | `mov $1, %eax`<br>`mov $0, %ebx`<br>`int $0x80` | `mov $60, %rax`<br>`xor %rdi, %rdi`<br>`syscall` |
+
+<a name="GAS"></a>
+#### Is the GAS, Clang/LLVM code for macOS or Linux?
+We have provided code (.s files) for GAS, Clang/LLVM for both macOS and Linux. The GAS code shown through the book is for macOS (since we use NASM on Linux through the book), but if you are using GAS on Linux, code files are provided for you in the repository. Typically, the only difference is the exit routine. (Chapter 10 programs are more different because of system calls).
 
 <a name="global"></a>
 #### Do I use the .globl or .global directive for *main* in GAS?
