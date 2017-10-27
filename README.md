@@ -98,7 +98,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 ***Teaching***
 
 - [How do the authors pace a semester using the text? / Is there an example course outline?](./Materials/WeeklyOutlineExample/)
-- [Chapter Highlights - What is most important, what do students typically struggle with, and what should students not forget for each chapter?](./Materials/ChapterHighlights/)
+- [Chapter Highlights - What is most important, what do students typically struggle with, and what should students not forget for each chapter?](./Materials/ChapterHighlights/README.md)
 
 ***Programming***
 

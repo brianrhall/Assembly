@@ -22,7 +22,7 @@ Here you will find additional materials and content we provide for the book. The
 	- [How do the authors pace a semester using the text? / Is there an example course outline?](./WeeklyOutlineExample/)
 	- [Weekly Outline Example PDF](./WeeklyOutlineExample/WeeklyOutlineExample.pdf), [Weekly Outline Example TeX](./WeeklyOutlineExample/WeeklyOutlineExample.tex)
 	- [Materials Video 2](https://youtu.be/eeTxO94bfKA)
-- [Chapter Highlights](./ChapterHighlights/) - What is most important, what do students typically struggle with, and what should students not forget for each chapter?
+- [Chapter Highlights](./ChapterHighlights/README.md) - What is most important, what do students typically struggle with, and what should students not forget for each chapter?
 
 #### Text Supplements
 - [Chapter 6 cdecl walkthrough in various syntaxes](./cdecl/README.md)
