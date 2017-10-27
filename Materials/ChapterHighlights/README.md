@@ -27,55 +27,55 @@ Here we provide answers to these questions from our perspective. Keep in mind th
 - *Struggle*: EQU and the current location counter
 - *Don't forget*: Data types are primitive, essentially a length of bits
 
-***Chapter 4 - Basic Instructions | Objective: Perform basic arithmetic***
+**Chapter 4 - Basic Instructions | Objective: Perform basic arithmetic**
 
 - *Important*: Indirect addressing
 - *Struggle*: MUL/DIV setup and variants
 - *Don't forget*: To extend the sign when moving values
 
-***Chapter 5 - Intermediate Instructions | Objective: Control program flow***
+**Chapter 5 - Intermediate Instructions | Objective: Control program flow**
 
 - *Important*: Primitive nature of data (boolean operators, rollover)
 - *Struggle*: Choosing the correct Jump instruction for the data (signed or unsigned) and behavior
 - *Don't forget*: Saving and restoring ECX for loop counting
 
-***Chapter 6 - Functions | Objective: Follow function calling conventions***
+**Chapter 6 - Functions | Objective: Follow function calling conventions**
 
 - *Important*: Function calls follow a convention
 - *Struggle*: Remembering implicit operations in instructions such as CALL and RET
 - *Don't forget*: Clean up stack
 
-***Chapter 7 - String Instructions and Structures | Objective: Use strings and stuctures***
+**Chapter 7 - String Instructions and Structures | Objective: Use strings and stuctures**
 
 - *Important*: Clearing or Setting the direction flag for string operations
 - *Struggle*: Choosing the correct REP instruction for the desired behavior
 - *Don't forget*: Data alignment
 
-***Chapter 8 - Floating-Point Operations | Objective: Execute floating-point operations***
+**Chapter 8 - Floating-Point Operations | Objective: Execute floating-point operations**
 
 - *Important*: Knowing where to find information
 - *Struggle*: Feeling overwhelmed by the amount of detail (e.g., generations, formats, registers, instructions)
 - *Don't forget*: To check what a particular system supports
 
-***Chapter 9 - Inline Assembly and Macros | Objective: Integreate low-level and high-level code***
+**Chapter 9 - Inline Assembly and Macros | Objective: Integreate low-level and high-level code**
 
 - *Important*: Understanding the effects of software and hardware optimizations
 - *Struggle*: The syntax details of Clang/GCC inline assembly, memory constraints
 - *Don't forget*: Microsoft x64 does not support inline assembly, use Intrinsics
 
-***Chapter 10 - Advanced Processor and System Architecture | Objective: Issue system calls***
+**Chapter 10 - Advanced Processor and System Architecture | Objective: Issue system calls**
 
 - *Important*: Use industry standards, tools, and methods
 - *Struggle*: Grasping the interrupt handling process given the possible scenarios and abstractions
 - *Don't forget*: To be cautious of hearsay and outdated code examples strewn across the Web
 
-***Chapter 11 - Other Architectures | Objective: Compare computer architectures***
+**Chapter 11 - Other Architectures | Objective: Compare computer architectures**
 
 - *Important*: Certain processor designs are well suited for particular devices or applications
 - *Struggle*: Carefully reading processor documentation
 - *Don't forget*: Basic computing principles are transferable as architectures evolve
 
-***Chapter 12 - Hardware and Electrical Components | Objective: Build simple circuits and devices***
+**Chapter 12 - Hardware and Electrical Components | Objective: Build simple circuits and devices**
 
 - *Important*: Electrical components use Direct Current
 - *Struggle*: Differentiating Current and Voltage
