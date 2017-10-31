@@ -89,9 +89,12 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 ***Book***
 
-- [Why learn Assembly? Is it even used anymore?](#why)
-- [Is the GAS, Clang/LLVM code for macOS or Linux?](#GAS)
-- [What if a web link in the book is broken? / Is there a place with all active web links?](#book_links)
+- [Why learn Assembly? Is it even used anymore?](./FAQ/README.md#why)
+- [Why x86? Isn't it too complex for students?](./FAQ/README.md#x86)
+- [Why have code for multiple assemblers? Isn't that confusing?](./FAQ/README.md#assemblers)
+- [Why no custom software (e.g., libraries, macros, environments)?](./FAQ/README.md#software)
+- [Is the GAS, Clang/LLVM code for macOS or Linux?](./FAQ/README.md#GAS)
+- [What if a web link in the book is broken? / Is there a place with all active web links?](./FAQ/README.md#book_links)
 - [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console\_IO/)
 - [Are there various syntax examples of the Chapter 6 detailed cdecl walkthough?](./Materials/cdecl/README.md)
 
@@ -102,49 +105,11 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 ***Programming***
 
-- [How do I assemble and link on Linux?](#linux)
-- [Do I use the .globl or .global directive for *main* in GAS?](#global)
+- [How do I assemble and link on Linux?](./FAQ/README.md#linux)
+- [Do I use the .globl or .global directive for *main* in GAS?](./FAQ/README.md#global)
 - [How do I use GDB or LLDB for command-line debugging?](./Materials/GDB\_LLDB/)
 
 ---
-
-<a name="why"></a>
-#### Why learn Assembly? Is it even used anymore?
-Yes. Every bit of code must be translated to run on a processor in its native instruction set. Assembly language is necessary for running software on hardware. More explanation can be found in the main text, but here are some abbreviated notes from Chapter 1.
-
-- Enhance your understanding of computer operation 
-- Debugging
-- Make informed implementation decisions
-- Remove layers of abstraction from tasks- Areas of software development that rely on intimate knowledge of Assembly, such as programming forembedded devices, programming device drivers, and system (OS) programming
-- Talking directly to the processor...come on, that's cool
-
-<a name="GAS"></a>
-#### Is the GAS, Clang/LLVM code for macOS or Linux?
-We have provided code (.s files) for GAS, Clang/LLVM for both macOS and Linux. The GAS code shown through the book is for macOS (since we use NASM on Linux through the book), but if you are using GAS on Linux, code files are provided for you in the repository. Typically, the only difference is the exit routine. (Chapter 10 programs are more different because of system calls).
-
-<a name="book_links"></a>
-#### What if a web link in the book is broken? / Is there a place with all active web links?
-Yes, try here -> [Book_Links.md](./Book_Links.md), which is in the file list at the top of the README. We would also appreciate if you report any broken links.
-
-<a name="linux"></a>
-#### How do I assemble and link on Linux?
-Here are some example `nasm` and `as` commands to assemble and link in Linux. The GAS examples in the book assume you are using Xcode on macOS, which uses Clang/LLVM. So, if you are using GAS on Linux, remember to change the exit routine.
-
-|    Linux     | NASM 32-bit | NASM 64-bit |
-|--------------|-----------|-----------|
-| Assemble     | `nasm -f elf32 prog.asm` | `nasm -f elf64 prog.asm` |
-| Link         | `ld -e _main -melf_i386 -o prog prog.o` | `ld -e _main -melf_x86_64 -o prog prog.o` |
-| Exit Routine | `mov eax, 1`<br>`mov ebx, 0`<br>`int 80h` | `mov rax, 60`<br>`xor rdi, rdi`<br>`syscall` |
-
-|    Linux     | GAS 32-bit | GAS 64-bit |
-|--------------|-----------|-----------|
-| Assemble     | `as --32 -o prog.o prog.s` | `as --64 -o prog.o prog.s` |
-| Link         | `ld -e _main -melf_i386 -o prog prog.o` | `ld -e _main -melf_x86_64 -o prog prog.o` |
-| Exit Routine | `mov $1, %eax`<br>`mov $0, %ebx`<br>`int $0x80` | `mov $60, %rax`<br>`xor %rdi, %rdi`<br>`syscall` |
-
-<a name="global"></a>
-#### Do I use the .globl or .global directive for *main* in GAS?
-Either. In the past, GAS used the .globl directive (without the *a*), but eventually updated the assembler to accept .global as well. We use .globl in the GAS examples and programs in the book.
 
 ## Errata
 - **Chapter 4, p. 76, Program 4.4 - NASM**:
