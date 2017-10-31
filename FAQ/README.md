@@ -3,8 +3,8 @@
 ***Book***
 
 - [Why learn Assembly? Is it even used anymore?](#why)
-- [Why x86? Isn't it too complex for students?](#x86)
-- [Why have code for multiple assemblers? Isn't that confusing?](#assemblers)
+- [Why x86? Is it too complex for students?](#x86)
+- [Why have code for multiple assemblers? Is it confusing?](#assemblers)
 - [Why no custom software (e.g., libraries, macros, environments)?](#software)
 - [Is the GAS, Clang/LLVM code for macOS or Linux?](#GAS)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](#book_links)
@@ -26,7 +26,7 @@
 
 <a id="why"></a>
 #### Why learn Assembly? Is it even used anymore?
-Yes. Every bit of code must be translated to run on a processor in its native instruction set. Assembly language is necessary for running software on hardware. More explanation can be found in the main text, but here are some abbreviated notes from Chapter 1.
+Yes. Every bit of code must be translated to run on a processor in its native instruction set. Assembly language is necessary for running software on hardware. More explanation can be found in the main text, but here are some abbreviated notes from *Chapter 1*.
 
 - Enhance your understanding of computer operation 
 - Debugging
@@ -37,7 +37,7 @@ Yes. Every bit of code must be translated to run on a processor in its native in
 ---
 
 <a id="x86"></a>
-#### Why x86? Isn't it too complex for students?
+#### Why x86? Is it too complex for students?
 Keep in mind that this text is geared toward applied computer science and software engineering students. Based on our experiences teaching the course, students can handle x86 with our approach.
 
 Although x86 is a complex architecture, it is the most common architecture in laptops and desktops, the systems students are using every day. In the book we do not cover the entire instruction set detail by detail (Intel's documentation does that). We cover what is necessary to illustrate the principles of computer architecture and simultaneously give students useful context applicable to the systems they are using and on which they are developing software. We do give introductions to other important architectures in *Chapter 11*.
@@ -47,7 +47,7 @@ We are contemplating writing an ARM supplement for the text since x86 and ARM ar
 ---
 
 <a id="assemblers"></a>
-#### Why have code for multiple assemblers? Isn't that confusing?
+#### Why have code for multiple assemblers? Is it confusing?
 Importantly, it is a feature: you have choice!
 
 A simple explanation I (Brian) give students for the different syntaxes is that there are different assemblers that can translate x86 Assembly into machine code. Just like there are different compilers that translate C++ code into executable machine code (gcc, clang, Visual C++, Intel C++, etc.). And the resulting code may be similar, but can have differences, pros, and cons. One quick example is methods of stack alignment. Another is that one compiler (e.g., Intel C++) may be tuned to use packed operations whereas other compilers may not.

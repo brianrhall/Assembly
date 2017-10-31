@@ -85,13 +85,13 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 ---
 
 
-## FAQ
+## [FAQ](./FAQ/README.md)
 
 ***Book***
 
 - [Why learn Assembly? Is it even used anymore?](./FAQ/README.md#why)
-- [Why x86? Isn't it too complex for students?](./FAQ/README.md#x86)
-- [Why have code for multiple assemblers? Isn't that confusing?](./FAQ/README.md#assemblers)
+- [Why x86? Is it too complex for students?](./FAQ/README.md#x86)
+- [Why have code for multiple assemblers? Is it confusing?](./FAQ/README.md#assemblers)
 - [Why no custom software (e.g., libraries, macros, environments)?](./FAQ/README.md#software)
 - [Is the GAS, Clang/LLVM code for macOS or Linux?](./FAQ/README.md#GAS)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](./FAQ/README.md#book_links)
