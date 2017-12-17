@@ -68,7 +68,7 @@ We wanted people to be able to use Mac, Windows, or Linux standalone or simultan
 
 Some Assembly texts have 3rd-party (custom) macros and software to help simplify certain tasks, which is fine in that sense, it may help you get certain things done a little more quickly or earlier. However, students will be learning about the building blocks necessary to do tasks like I/O anyway, so it really depends on how you arrange the blocks.
 
-We avoid non-standard environments and software because it is not how you would actually use Assembly in practice. For example, we use GitHub to get our code out to the world, because it is what modern developers use. We use system calls, standard I/O libraries, and  and OS APIs to do tasks like I/O. We use the latest operating systems and development environments because they all inherently have the ability to do Assembly programming without any extra software (see [Appendix B: Environment Setup](../content/Assembly_App_B_GitHub.pdf)).
+We avoid non-standard environments and software because it is not how you would actually use Assembly in practice. For example, we use GitHub to get our code out to the world, because it is what modern developers use. We use system calls, standard I/O libraries, and OS APIs to do tasks like I/O. We use the latest operating systems and development environments because they all inherently have the ability to do Assembly programming without any extra software (see [Appendix B: Environment Setup](../content/Assembly_App_B_GitHub.pdf)).
 
 We want students to see things in a way they are used professionally. Such an approach helps understanding well beyond Assembly programming.
 
