@@ -17,7 +17,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 - [Links](./Book_Links.md) to wikis, developer resources, and videos are provided to assist in further exploration of topics.
 - Attention, Programming, and Learning notes are placed throughout the text to guide the reader in beneficial ways.
 
-| [Prospect Press](http://www.prospectpressvt.com/) | eBook | Print Book (306 pages) |
+| [Prospect Press](http://www.prospectpressvt.com/) | eBook ([comparison](./FAQ/README.md#eBook)) | Print Book (306 pages) |
 |----------------|-------|------------|
 | Price     | $44 | $68 |
 | Sources   | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka), [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) | [Amazon](https://www.amazon.com/dp/1943153329), [Amazon Europe](https://www.amazon.de/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329/), [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka) |
@@ -93,10 +93,11 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 - [Why x86? Is it too complex for students?](./FAQ/README.md#x86)
 - [Why have code for multiple assemblers? Is it confusing?](./FAQ/README.md#assemblers)
 - [Why no custom software (e.g., libraries, macros, environments)?](./FAQ/README.md#software)
-- [Is the GAS, Clang/LLVM code for macOS or Linux?](./FAQ/README.md#GAS)
+- [Is the GAS and Clang/LLVM code for macOS or Linux?](./FAQ/README.md#GAS)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](./FAQ/README.md#book_links)
 - [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console\_IO/)
 - [Are there various syntax examples of the Chapter 6 detailed cdecl walkthough?](./Materials/cdecl/README.md)
+- [Which provider should I choose for the eBook?](./FAQ/README.md#eBook)
 
 ***Teaching***
 

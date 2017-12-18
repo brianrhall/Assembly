@@ -6,10 +6,11 @@
 - [Why x86? Is it too complex for students?](#x86)
 - [Why have code for multiple assemblers? Is it confusing?](#assemblers)
 - [Why no custom software (e.g., libraries, macros, environments)?](#software)
-- [Is the GAS, Clang/LLVM code for macOS or Linux?](#GAS)
+- [Is the GAS and Clang/LLVM code for macOS or Linux?](#GAS)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](#book_links)
 - [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](../Materials/Console\_IO/)
 - [Are there various syntax examples of the Chapter 6 detailed cdecl walkthough?](../Materials/cdecl/README.md)
+- [Which provider should I choose for the eBook?](#eBook)
 
 ***Teaching***
 
@@ -75,7 +76,7 @@ We want students to see things in a way they are used professionally. Such an ap
 ---
 
 <a id="GAS"></a>
-#### Is the GAS, Clang/LLVM code for macOS or Linux?
+#### Is the GAS and Clang/LLVM code for macOS or Linux?
 We have provided code (.s files) for GAS, Clang/LLVM for both macOS and Linux. The GAS code shown through the book is for macOS (since we use NASM on Linux through the book), but if you are using GAS on Linux, code files are provided for you in the repository. Typically, the only difference is the exit routine. (Chapter 10 programs are more different because of system calls).
 
 ---
@@ -83,6 +84,21 @@ We have provided code (.s files) for GAS, Clang/LLVM for both macOS and Linux. T
 <a id="book_links"></a>
 #### What if a web link in the book is broken? / Is there a place with all active web links?
 Yes, try here -> [Book_Links.md](../Book_Links.md), which is in the file list at the top of the README. We would also appreciate if you report any broken links.
+
+---
+
+<a id="eBook"></a>
+#### Which provider should I choose for the eBook?
+Prospect Press provides a page that [compares](https://prospectpressvt.com/ordering/direct-student-orders/) the purchasing options, but we have also summarized it here. To go directly to our eBook page at the providers, just click the links below.
+
+|    Question     | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka) | [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) |
+|--------------|-----------|-----------|
+| Online or Download?     | Online only | Online AND Download |
+| Duration?         | Permanent online access | 365 day access for online, perpetual download |
+| Returnable? | Yes, within 14 days of purchase | No |
+| Can I buy this in the campus bookstore? | Yes, at selected college and university bookstores. Check if your bookstore sells RedShelf ebooks. | No, not available through campus bookstores. |
+|Study Tools? | Built-in study tools include highlights, study guides, annotations, definitions, flashcards, and collaboration. | Notes and highlights (synced across devices). Share mark-ups with your professor or classmates—and subscribe to theirs, too. Review Mode, which allows you to look at your notes and highlights in context with your eBook without the distraction of full-reading mode. |
+| Screenshot? | [Redshelf screenshot](../content/Redshelf.pdf) | [Vital Source screenshot](../content/VitalSource.pdf) |
 
 ---
 
