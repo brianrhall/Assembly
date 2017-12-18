@@ -92,12 +92,12 @@ Yes, try here -> [Book_Links.md](../Book_Links.md), which is in the file list at
 Prospect Press provides a page that [compares](https://prospectpressvt.com/ordering/direct-student-orders/) the purchasing options, but we have also summarized it here. To go directly to our eBook page at the providers, just click the links below.
 
 |    Question     | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka) | [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) |
-|--------------|-----------|-----------|
+|----|----|----|
 | Online or Download?     | Online only | Online AND Download |
 | Duration?         | Permanent online access | 365 day access for online, perpetual download |
 | Returnable? | Yes, within 14 days of purchase | No |
 | Can I buy this in the campus bookstore? | Yes, at selected college and university bookstores. Check if your bookstore sells RedShelf ebooks. | No, not available through campus bookstores. |
-|Study Tools? | Built-in study tools include highlights, study guides, annotations, definitions, flashcards, and collaboration. | Notes and highlights (synced across devices). Share mark-ups with your professor or classmates—and subscribe to theirs, too. Review Mode, which allows you to look at your notes and highlights in context with your eBook without the distraction of full-reading mode. |
+|Study Tools? | Built-in study tools include highlights, study guides, annotations, definitions, flashcards, and collaboration. | Notes and highlights (synced across devices). <br>Share mark-ups with your professor or classmates—and subscribe to theirs, too. Review Mode, which allows you to look at your notes and highlights in context with your eBook without the distraction of full-reading mode. |
 | Screenshot? | [Redshelf screenshot](../content/Redshelf.pdf) | [Vital Source screenshot](../content/VitalSource.pdf) |
 
 ---
