@@ -1,6 +1,6 @@
 # Book Links
 
-### This is an organized collection of all the links in the book. You're welcome.
+### This is an organized collection of all the links in the book. You're welcome. Bold links indicate a changed link since publication (Edition 1.0).
 
 ## Front Matter
 -  Book website: [http://www.prospectpressvt.com/titles/hall-assembly-programming/](http://www.prospectpressvt.com/titles/hall-assembly-programming/)
@@ -23,7 +23,7 @@
 
 ###### Developer
 -  [http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html)
--  [http://developer.amd.com/resources/documentation-articles/developer-guides-manuals/](http://developer.amd.com/resources/documentation-articles/developer-guides-manuals/)
+-  **[https://developer.amd.com/resources/developer-guides-manuals/](https://developer.amd.com/resources/developer-guides-manuals/)**
 
 ## Chapter 3: Assembly and Syntax Fundamentals
 
@@ -129,7 +129,7 @@
 ## Introduction to the Appendicies
 
 ###### Manuals
--  Intel: [http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html)-  AMD: [http://developer.amd.com/resources/developer-guides-manuals/](http://developer.amd.com/resources/developer-guides-manuals/)-  Agner Fog: [http://www.agner.org/optimize/#manuals](http://www.agner.org/optimize/#manuals)
+-  Intel: [http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html)-  AMD: **[https://developer.amd.com/resources/developer-guides-manuals/](https://developer.amd.com/resources/developer-guides-manuals/)**-  Agner Fog: [http://www.agner.org/optimize/#manuals](http://www.agner.org/optimize/#manuals)
 
 ###### Instruction indexes
 -  [http://www.felixcloutier.com/x86/](http://www.felixcloutier.com/x86/)-  [http://x86.renejeschke.de](http://x86.renejeschke.de)-  [https://en.wikipedia.org/wiki/X86\_instruction\_listings](https://en.wikipedia.org/wiki/X86\_instruction\_listings)
@@ -155,7 +155,7 @@
 ## Appendix G: Using CPUID
 
 ###### Developer resources
--  AMDArchitectureProgrammer’s Manual: [http://developer.amd.com/resources/developer-guides-manuals/](http://developer.amd.com/resources/developer-guides-manuals/)-  AMD CPUID Specification: [http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/25481.pdf](http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/25481.pdf)-  Microsoft __cpuid(): [https://msdn.microsoft.com/en-us/library/hskdteyh.aspx](https://msdn.microsoft.com/en-us/library/hskdteyh.aspx)
+-  AMD Architecture Programmer’s Manual: **[https://developer.amd.com/resources/developer-guides-manuals/](https://developer.amd.com/resources/developer-guides-manuals/)**-  AMD CPUID Specification: [http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/25481.pdf](http://amd-dev.wpengine.netdna-cdn.com/wordpress/media/2012/10/25481.pdf)-  Microsoft __cpuid(): [https://msdn.microsoft.com/en-us/library/hskdteyh.aspx](https://msdn.microsoft.com/en-us/library/hskdteyh.aspx)
 
 ###### Web resources
 -  [https://en.wikipedia.org/wiki/CPUID](https://en.wikipedia.org/wiki/CPUID) (the best resource for a quick visual of feature bits)
