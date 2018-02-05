@@ -107,6 +107,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 ***Programming***
 
 - [How do I assemble and link on Linux?](./FAQ/README.md#linux)
+- [How do I assemble and link on macOS (Terminal)?](./FAQ/README.md#mac)
 - [Do I use the .globl or .global directive for *main* in GAS?](./FAQ/README.md#global)
 - [How do I use GDB or LLDB for command-line debugging?](./Materials/GDB\_LLDB/)
 

@@ -20,6 +20,7 @@
 ***Programming***
 
 - [How do I assemble and link on Linux?](#linux)
+- [How do I assemble and link on macOS (Terminal)?](#mac)
 - [Do I use the .globl or .global directive for *main* in GAS?](#global)
 - [How do I use GDB or LLDB for command-line debugging?](../Materials/GDB\_LLDB/)
 
@@ -117,6 +118,18 @@ Here are some example `nasm` and `as` commands to assemble and link in Linux. Th
 | Assemble     | `as --32 -o prog.o prog.s` | `as --64 -o prog.o prog.s` |
 | Link         | `ld -e _main -melf_i386 -o prog prog.o` | `ld -e _main -melf_x86_64 -o prog prog.o` |
 | Exit Routine | `mov $1, %eax`<br>`mov $0, %ebx`<br>`int $0x80` | `mov $60, %rax`<br>`xor %rdi, %rdi`<br>`syscall` |
+
+---
+
+<a id="mac"></a>
+#### How do I assemble and link on macOS (Terminal)?
+Here are some example `nasm` commands to assemble and link using NASM on macOS in Terminal. Just set the minimum OS version to whatever version you wish based on your install.
+
+|    macOS     | NASM 32-bit | NASM 64-bit |
+|--------------|-----------|-----------|
+| Assemble     | `nasm -f macho -o prog.o prog.asm` | `nasm -f macho64 -o prog.o prog.asm` |
+| Link | `ld -macosx_version_min 10.12 -o prog prog.o -lSystem` | <- same
+| Exit Routine | `push DWORD 0`<br>`sub esp, 4`<br>`mov eax, 1`<br>`int 80h` | `mov rax, 2000001h`<br>`xor rdi, rdi`<br>`syscall` |
 
 ---
 
