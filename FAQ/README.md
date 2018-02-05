@@ -128,7 +128,7 @@ Here are some example `nasm` commands to assemble and link using NASM on macOS i
 |    macOS     | NASM 32-bit | NASM 64-bit |
 |--------------|-----------|-----------|
 | Assemble     | `nasm -f macho -o prog.o prog.asm` | `nasm -f macho64 -o prog.o prog.asm` |
-| Link | `ld -macosx_version_min 10.12 -o prog prog.o -lSystem` | <- same
+| Link <td colspan="2"> `ld -macosx_version_min 10.12 -o prog prog.o -lSystem` 
 | Exit Routine | `push DWORD 0`<br>`sub esp, 4`<br>`mov eax, 1`<br>`int 80h` | `mov rax, 2000001h`<br>`xor rdi, rdi`<br>`syscall` |
 
 ---
