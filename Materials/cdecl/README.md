@@ -190,7 +190,7 @@ Notice the parameters (`0x2` and `0x4`) on the stack.
 0xffffd1d8:	0x00000000	0xffffd3aa	0xffffd3b5	0xffffd3c7 </pre></td></tr>
 <tr>
 <td><strong>NASM</strong><br> (eip -> 0x08048097)</td>
-<td><pre style="border:0">(gdb) x/8xw $espc
+<td><pre style="border:0">(gdb) x/8xw $esp
 0xffffd1b8:	<b style="color:red;">0x00000002	0x00000004</b>	0x00000001	0xffffd38f
 0xffffd1c8:	0x00000000	0xffffd3a8	0xffffd3b3	0xffffd3c5 </pre></td></tr></table>
 
