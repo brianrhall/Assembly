@@ -58,7 +58,9 @@ _main PROC					; Print "Computer Arch"
 	call CloseHandle
 	mov closed, rax				; save status
 
-	add rsp, 48h				; clean up stack
+	;add rsp, 48h				; clean up stack, may need removed depending on Version
+						; can cause an exception due to stack corruption
+						; when ExitProcess is called
 
 	mov rcx, 0				; return value
 	call ExitProcess			; exit
