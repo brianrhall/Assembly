@@ -3,7 +3,6 @@
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>
-using namespace std;
 
 extern "C" void asmMain();
 
@@ -19,7 +18,7 @@ extern "C" void printString(char* s){
 }
 
 extern "C" void printDouble(double d){
-    cout << d << endl;
+    std::cout << d << std::endl;
 }
 
 // main stub driver
