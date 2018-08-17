@@ -8,7 +8,7 @@
 using namespace std;
 
 float divide(float numerator, float denominator){
-   if (denominator == 1) {
+   if (denominator == 0) {
       cout << ("ERROR: Cannot divide by zero.\n");
       return 1;
    }
