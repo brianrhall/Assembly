@@ -2,7 +2,7 @@
 
 ***Important Notes***
 
-- **For Mac users: The macOS 10.14 SDK and later no longer support 32-bit applications. If you want to write 32-bit programs for i386, Xcode 9.4 or earlier is required.** If you are using macOS High Sierra (10.3) and XCode 9 or later, you will discover that the i386 architecture is deprecated. We will be working on creating 64-bit versions of all the programs throughout the text. In the next edition, 64-bit programs will likely replace many of the 32-bit programs. We won't remove the 32-bit programs from GitHub, but the text will use the newer 64-bit programs for the examples.
+- **For Mac users: The macOS 10.14 SDK and later no longer support 32-bit applications. If you want to write 32-bit programs for i386, Xcode 9.4 or earlier is required.** If you are using macOS High Sierra (10.3) and XCode 9 or later, you will discover that the i386 architecture is deprecated. We will be working on creating 64-bit versions of all the programs throughout the text. In the next edition, 64-bit programs will likely replace many of the 32-bit programs. We won't remove the 32-bit programs from GitHub, but the text will use the newer 64-bit programs for the examples. **In the meantime, basic 64-bit templates are in the Appendix B and C folders.**
 
 ***Book***
 
