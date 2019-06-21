@@ -15,7 +15,7 @@ mov rax, num
 add rax, 20
 mov sum, rax
 
-mov rcx, 0
+xor rcx, rcx
 call ExitProcess
 _main ENDP
 
