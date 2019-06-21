@@ -1,19 +1,16 @@
-; Program B.1
-; Template - MASM (64-bit)
+; Program 4.3
+; Negative Division - MASM (64-bit)
 ; Copyright (c) 2019 Hall & Slonka
 
 extrn ExitProcess : proc
 
-.DATA
-num QWORD 80
-sum QWORD ?
-
-.CODE
-
+.code
 _main PROC
-mov rax, num
-add rax, 20
-mov sum, rax
+
+mov eax, -534
+cdq
+mov ebx, 15
+idiv ebx
 
 xor rcx, rcx
 call ExitProcess

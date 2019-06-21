@@ -1,6 +1,6 @@
 ; Program B.1
 ; Template - NASM (64-bit)
-; Copyright (c) 2018 Hall & Slonka
+; Copyright (c) 2019 Hall & Slonka
 
 SECTION .data
 num: dq 80
