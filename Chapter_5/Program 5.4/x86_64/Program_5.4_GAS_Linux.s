@@ -1,9 +1,9 @@
 # Program 5.4
-# while Loop - GAS, Clang/LLVM on macOS (64-bit)
+# while Loop - GAS, Clang/LLVM on Linux (64-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .text
-.globl _main
+.global _main
 _main:
 
 movq $30, %rax
@@ -14,7 +14,7 @@ while_loop:
     jmp while_loop
 done:
 
-movq $0x2000001, %rax
-movq $0, %rdi
+movq $60, %rax
+xorq %rdi, %rdi
 syscall
 .end

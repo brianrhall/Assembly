@@ -3,7 +3,7 @@
 # Copyright (c) 2017 Hall & Slonka
 
 .text
-.globl _main
+.global _main
 _main:
 
 xorq %rax, %rax

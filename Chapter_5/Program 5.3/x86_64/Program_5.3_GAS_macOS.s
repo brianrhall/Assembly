@@ -1,9 +1,9 @@
 # Program 5.3
-# Nested for Loop - GAS, Clang/LLVM on Linux (64-bit)
+# Nested for Loop - GAS, Clang/LLVM on macOS (64-bit)
 # Copyright (c) 2017 Hall & Slonka
 
 .text
-.globl _main
+.global _main
 _main:
 
 xorq %rax, %rax
@@ -19,7 +19,7 @@ outer:
     cmpq $0, %rbx
     jne outer
 
-movq $60, %rax
-xorq %rdi, %rdi
+movq $0x2000001, %rax
+movq $0, %rdi
 syscall
 .end
