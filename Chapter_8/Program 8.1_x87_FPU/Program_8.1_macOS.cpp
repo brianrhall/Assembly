@@ -1,5 +1,5 @@
 // Program 8.1
-// x87 FPU - GAS, Clang/LLVM (32-bit)
+// macOS (Xcode) C++ Code
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>

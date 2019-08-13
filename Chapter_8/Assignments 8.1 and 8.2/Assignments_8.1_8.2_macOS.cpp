@@ -1,5 +1,5 @@
 // Assignments 8.1 and 8.2
-// Mac (Xcode) C++ Code
+// macOS (Xcode) C++ Code
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>

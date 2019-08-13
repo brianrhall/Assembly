@@ -1,5 +1,5 @@
 // Program 8.1
-// x87 FPU - GAS, g++, Clang/LLVM on Linux (32-bit)
+// Windows (Visual Studio) and Linux (g++) C++ Code
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>
