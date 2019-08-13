@@ -37,7 +37,7 @@ fldcw [rel nearest]		; set desired rounding mode
 fldpi				; load pi on the stack
 frndint 			; round to integer (uses rounding mode)
 fistp QWORD [rel result]	; store from stack to memory
-mov rax, [rel result]		; mov rounded result to EAX
+mov rax, [rel result]		; mov rounded result to RAX
 
 mov rax, 60
 xor rdi, rdi
