@@ -1,5 +1,5 @@
 // Program 8.9
-// x86_64 Investment Calculator - GAS, Clang/LLVM (64-bit)
+// macOS (Xcode) C++ Code
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>

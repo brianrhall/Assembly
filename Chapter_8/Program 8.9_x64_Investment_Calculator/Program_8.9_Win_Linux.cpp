@@ -1,5 +1,5 @@
 // Program 8.9
-// x86_64 Investment Calculator - MASM (64-bit)
+// Windows (Visual Studio) and Linux (g++) C++ Code
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>
