@@ -1,5 +1,5 @@
 // Example 9.3
-// Clang/GCC Inline Assembly Dialects - Clang/LLVM, GCC (32-bit)
+// Clang/GCC Inline Assembly Dialects - Clang/LLVM, GCC (32/64-bit)
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>

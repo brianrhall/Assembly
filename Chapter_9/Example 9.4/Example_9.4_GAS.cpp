@@ -1,5 +1,5 @@
 // Example 9.4
-// Multiple Dialects in Clang/GCC - Clang/LLVM, GCC (32-bit)
+// Multiple Dialects in Clang/GCC - Clang/LLVM, GCC (32/64-bit)
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>

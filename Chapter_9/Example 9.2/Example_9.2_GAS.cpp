@@ -1,5 +1,5 @@
 // Example 9.2
-// Inline Parameter Access - Clang/LLVM, GCC (32-bit)
+// Inline Parameter Access - Clang/LLVM, GCC (32/64-bit)
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>

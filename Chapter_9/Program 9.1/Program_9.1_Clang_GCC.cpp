@@ -1,5 +1,5 @@
 // Program 9.1
-// Simple Inline Assembly - Clang/LLVM, GCC (32-bit)
+// Simple Inline Assembly - Clang/LLVM, GCC (32/64-bit)
 // Copyright (c) 2017 Hall & Slonka
 
 #include <iostream>
