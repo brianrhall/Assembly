@@ -24,7 +24,7 @@ int main()
          "xorq %%rcx, %%rcx \n\t"             // RCX = 0
          "cpuid \n\t"
          "movq %%rbx, %[eFeatures1] \n\t"
-         "movq $80000001h, %%rax \n\t"        // RAX = 80000001h
+         "movq $0x80000001, %%rax \n\t"       // RAX = 80000001h
          "cpuid \n\t"
          "movq %%rdx, %[eFeatures2] \n\t"
          :[features1] "=m"(features1),        // outputs

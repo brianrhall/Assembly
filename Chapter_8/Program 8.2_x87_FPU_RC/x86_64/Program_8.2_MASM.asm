@@ -35,7 +35,7 @@ fldcw nearest		; set desired rounding mode
 
 fldpi			; load pi on the stack
 frndint 		; round to integer (uses rounding mode)
-fistp result		; store from stack to memory
+fistp result		; store from FPU stack to memory
 mov rax, result		; mov rounded result to RAX
 
 xor rcx, rcx

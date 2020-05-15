@@ -14,6 +14,6 @@ myLoop:
    loop myLoop
 
 movq $0x2000001, %rax
-movq $0, %rdi
+xorq %rdi, %rdi
 syscall
 .end

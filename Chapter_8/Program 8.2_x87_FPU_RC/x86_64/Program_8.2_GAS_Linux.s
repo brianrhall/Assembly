@@ -35,7 +35,7 @@ fldcw nearest(%rip)             # set desired rounding mode
 
 fldpi                           # load pi on the stack
 frndint                         # round to integer (uses rounding mode)
-fistpq result(%rip)             # store from stack to memory
+fistpq result(%rip)             # store from FPU stack to memory
 movq result(%rip), %rax         # mov rounded result to RAX
 
 movq $60, %rax

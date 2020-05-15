@@ -21,7 +21,7 @@ int main()
         "xorl %%ecx, %%ecx \n\t"             // ECX = 0
         "cpuid \n\t"
         "movl %%ebx, %[eFeatures1] \n\t"
-        "movl $80000001h, %%eax \n\t"        // EAX = 80000001h
+        "movl $0x80000001, %%eax \n\t"        // EAX = 80000001h
         "cpuid \n\t"
         "movl %%edx, %[eFeatures2] \n\t"
         :[features1] "=m"(features1),        // outputs

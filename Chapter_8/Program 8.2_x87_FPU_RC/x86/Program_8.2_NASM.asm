@@ -36,7 +36,7 @@ fldcw [nearest]		; set desired rounding mode
 
 fldpi			; load pi on the stack
 frndint 		; round to integer (uses rounding mode)
-fist DWORD [result]	; store from stack to memory
+fist DWORD [result]	; store from FPU stack to memory
 mov eax, [result]	; mov rounded result to EAX
 
 mov eax, 1
