@@ -11,8 +11,8 @@ _main:
 
 mov rax, array		; array address to rax
 mov ebx, [eax+4]	; second element to ebx
-mov ecx, [ds:array]	; first element to ecx (compiler warning)
-mov edx, [ds:array+8]	; third element to edx (compiler warning)
+mov ecx, [ds:array]	; first element to ecx (assembler warning)
+mov edx, [ds:array+8]	; third element to edx (assembler warning)
 ; "warning: ds segment base generated, but will be ignored in 64-bit mode"
 
 mov rax, 60

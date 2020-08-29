@@ -1,6 +1,6 @@
 ; Program 5.2
 ; Looping - MASM (64-bit)
-; Copyright (c) 2017 Hall & Slonka
+; Copyright (c) 2020 Hall & Slonka
 
 extrn ExitProcess : proc
 
@@ -14,7 +14,7 @@ myLoop:
   inc rax
   loop myLoop
 
-mov rcx, 0
+xor rcx, rcx
 call ExitProcess
 _main ENDP
 END

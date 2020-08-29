@@ -1,22 +1,22 @@
 # Program 4.1
 # Addition and Subtraction - GAS, Clang/LLVM on macOS (64-bit)
-# Copyright (c) 2019 Hall & Slonka
+# Copyright (c) 2020 Hall & Slonka
 
 .data
-sum: .long 0
-val: .long 25
+sum: .quad 0
+val: .quad 25
 
 .text
 .global _main
 _main:
 
-movl $0, %eax
-incl %eax
-addl $200, %eax
-subl val(%rip), %eax
-movl %eax, sum(%rip)
-decl sum(%rip)
-negl sum(%rip)
+mov $0, %rax
+inc %rax
+add $200, %rax
+sub val(%rip), %rax
+mov %rax, sum(%rip)
+dec sum(%rip)
+neg sum(%rip)
 
 movq $0x2000001, %rax
 xorq %rdi, %rdi

@@ -6,12 +6,12 @@
 .global _main
 _main:
 
-movl $-534, %eax
-cdq
-movl $15, %ebx
-idivl %ebx
+mov $-534, %rax
+cqo
+mov $15, %rbx
+idiv %rbx
 
-movq $0x2000001, %rax
-xorq %rdi, %rdi
+mov $0x2000001, %rax
+xor %rdi, %rdi
 syscall
 .end

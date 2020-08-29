@@ -9,7 +9,7 @@ file_name: .asciz "output.txt"
 file_handle: .long 0
 
 .text
-.globl _main
+.global _main
 _main:
 
 movq $0x2000004, %rax        # system write (4)

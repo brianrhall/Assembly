@@ -7,7 +7,7 @@ num1: .quad 2
 num2: .quad 4
 
 .text
-.globl _main, _sum
+.global _main, _sum
 _main:
 
 movq $10, %rax

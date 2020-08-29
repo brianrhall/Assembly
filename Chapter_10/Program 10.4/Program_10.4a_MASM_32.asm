@@ -1,4 +1,4 @@
-; Program 10.4
+; Program 10.4a
 ; Windows API Calls - MASM (32-bit)
 ; Copyright (c) 2017 Hall & Slonka
 

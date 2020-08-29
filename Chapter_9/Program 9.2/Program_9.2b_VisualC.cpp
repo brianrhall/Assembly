@@ -1,6 +1,6 @@
-// Program 9.2
-// Floating-Point Intrinsics - Visual C++ (64-bit)
-// Copyright (c) 2019 Hall & Slonka
+// Program 9.2b
+// Floating-Point Intrinsics - Visual C++ (32/64-bit)
+// Copyright (c) 2020 Hall & Slonka
 
 #include <intrin.h>
 #include <iostream>

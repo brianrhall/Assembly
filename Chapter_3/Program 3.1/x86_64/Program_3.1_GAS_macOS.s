@@ -1,19 +1,19 @@
 # Program 3.1
 # Sample Assembly Program - GAS, Clang/LLVM on macOS (64-bit)
-# Copyright (c) 2019 Hall & Slonka
+# Copyright (c) 2020 Hall & Slonka
 
 .data
-sum: .long 0
+sum: .quad 0
 
 .text
 .global _main
 _main:
-movl $25, %eax
-movl $50, %ebx
-addl %ebx, %eax
-movl %eax, sum(%rip)
+mov $25, %rax
+mov $50, %rbx
+add %rbx, %rax
+mov %rax, sum(%rip)
 
-movq $0x2000001, %rax
-xorq %rdi, %rdi
+mov $0x2000001, %rax
+xor %rdi, %rdi
 syscall
 .end

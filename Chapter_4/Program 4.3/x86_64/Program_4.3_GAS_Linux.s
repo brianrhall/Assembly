@@ -1,17 +1,17 @@
 # Program 4.3
 # Negative Division - GAS, Clang/LLVM on Linux (64-bit)
-# Copyright (c) 2019 Hall & Slonka
+# Copyright (c) 2020 Hall & Slonka
 
 .text
 .global _main
 _main:
 
-movl $-534, %eax
-cdq
-movl $15, %ebx
-idivl %ebx
+mov $-534, %rax
+cqo
+mov $15, %rbx
+idiv %rbx
 
-movq $60, %rax
-xorq %rdi, %rdi
+mov $60, %rax
+xor %rdi, %rdi
 syscall
 .end

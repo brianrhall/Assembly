@@ -1,43 +1,43 @@
 ; Program 4.2
 ; Multiplication and Division - NASM (64-bit)
-; Copyright (c) 2019 Hall & Slonka
+; Copyright (c) 2020 Hall & Slonka
 
-SECTION .data
-mval: DD 664751
-dval: DD 8
+SECTION .data 
+mval: DQ 664751
+dval: DQ 8
 
-SECTION .text
+SECTION .text 
 global _main
 _main:
 
 ; MUL 1-op
-mov eax, [rel mval]
-mov ebx, 8
-mul ebx
+mov rax, [mval] 
+mov rbx, 8
+mul rbx
 
 ; IMUL 1-op
-mov eax, [rel mval]
-mov ebx, 8
-imul ebx
+mov rax, [mval] 
+mov rbx, 8
+imul rbx
 
 ; IMUL 2-op
-mov eax, 8
-imul eax, [rel mval]
+mov rax, 8
+imul rax, [mval]
 
 ; IMUL 3-op
-imul eax, [rel mval], 8
+imul rax, [mval], 8
 
 ; DIV 1-op
-mov edx, 0
-mov eax, 5318008
-mov ecx, [rel dval]
-div ecx
+mov rdx, 0
+mov rax, 5318008 
+mov rcx, [dval] 
+div rcx
 
 ; IDIV 1-op
-mov edx, 0
-mov eax, 5318008
-mov ecx, [rel dval]
-idiv ecx
+mov rdx, 0
+mov rax, 5318008 
+mov rcx, [dval] 
+idiv rcx
 
 mov rax, 60
 xor rdi, rdi

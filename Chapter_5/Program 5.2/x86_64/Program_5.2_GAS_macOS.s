@@ -1,19 +1,19 @@
 # Program 5.2
 # Looping - GAS, Clang/LLVM on macOS (64-bit)
-# Copyright (c) 2017 Hall & Slonka
+# Copyright (c) 2020 Hall & Slonka
 
 .text
 .global _main
 _main:
 
-xorq %rax, %rax
-movq $5, %rcx
+xor %rax, %rax
+mov $5, %rcx
 
 myLoop:
-   incq %rax
+   inc %rax
    loop myLoop
 
-movq $0x2000001, %rax
-xorq %rdi, %rdi
+mov $0x2000001, %rax
+xor %rdi, %rdi
 syscall
 .end

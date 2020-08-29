@@ -27,7 +27,7 @@ durationMessage: .asciz  "Enter Duration (in months):  "
 paymentMessage:  .asciz  "    Monthly Payment Amount:  $"
 
 .text
-.globl _asmMain
+.global _asmMain
 _asmMain:
 
 pushq	%rbp

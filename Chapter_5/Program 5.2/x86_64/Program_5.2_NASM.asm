@@ -1,6 +1,6 @@
 ; Program 5.2
 ; Looping - NASM (64-bit)
-; Copyright (c) 2017 Hall & Slonka
+; Copyright (c) 2020 Hall & Slonka
 
 SECTION .text
 global _main
@@ -16,4 +16,3 @@ myLoop:
 mov rax, 60
 xor rdi, rdi
 syscall
-

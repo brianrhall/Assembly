@@ -15,7 +15,7 @@ while_loop:
    jmp while_loop
 done:
 
-mov rcx, 0
+xor rcx, rcx
 call ExitProcess
 _main ENDP
 END

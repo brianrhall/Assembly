@@ -1,25 +1,25 @@
 ; Program 5.1
 ; Conditional Jump - NASM (64-bit)
-; Copyright (c) 2019 Hall & Slonka
+; Copyright (c) 2020 Hall & Slonka
 
-SECTION .data
-wages: DD 46000
+SECTION .data 
+wages: DQ 46000
 
 SECTION .bss
-taxes: RESD 1
+taxes: RESQ 1
 
-SECTION .text
+SECTION .text 
 global _main
 _main:
 
- mov eax, 50000
- cmp DWORD [rel wages], eax
- jae higher
- mov DWORD [rel taxes], 2000
- jmp done
+mov rax, 50000
+cmp QWORD [wages], rax 
+jae higher
+mov QWORD [taxes], 2000 
+jmp done
 
 higher:
- mov DWORD [rel taxes], 4000
+mov QWORD [taxes], 4000
 
 done:
 mov rax, 60

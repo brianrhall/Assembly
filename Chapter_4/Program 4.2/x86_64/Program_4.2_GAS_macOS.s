@@ -1,45 +1,45 @@
 # Program 4.2
 # Multiplication and Division - GAS, Clang/LLVM on macOS (64-bit)
-# Copyright (c) 2019 Hall & Slonka
+# Copyright (c) 2020 Hall & Slonka
 
 .data
-mval: .long 664751
-dval: .long 8
+mval: .quad 664751
+dval: .quad 8
 
 .text
 .global _main
 _main:
 
 # MUL 1-op
-movl mval(%rip), %eax
-movl $8, %ebx
-mull %ebx
+mov mval(%rip), %rax
+mov $8, %rbx
+mul %rbx
 
 # IMUL 1-op
-movl mval(%rip), %eax
-movl $8, %ebx
-imull %ebx
+mov mval(%rip), %rax
+mov $8, %rbx
+imul %rbx
 
 # IMUL 2-op
-movl $8, %eax
-imull mval(%rip), %eax
+mov $8, %rax
+imul mval(%rip), %rax
 
 # IMUL 3-op
-imull $8, mval(%rip), %eax
+imul $8, mval(%rip), %rax
 
 # DIV 1-op
-movl $0, %edx
-movl $5318008, %eax
-movl dval(%rip), %ecx
-divl %ecx
+mov $0, %rdx
+mov $5318008, %rax
+mov dval(%rip), %rcx
+div %rcx
 
 # IDIV 1-op
-movl $0, %edx
-movl $5318008, %eax
-movl dval(%rip), %ecx
-idivl %ecx
+mov $0, %rdx
+mov $5318008, %rax
+mov dval(%rip), %rcx
+idiv %rcx
 
-movq $0x2000001, %rax
-xorq %rdi, %rdi
+mov $0x2000001, %rax
+xor %rdi, %rdi
 syscall
 .end

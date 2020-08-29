@@ -20,7 +20,7 @@ outer:
    cmp rbx, 0
    jne outer
 
-mov rcx, 0
+xor rcx, rcx
 call ExitProcess
 _main ENDP
 END

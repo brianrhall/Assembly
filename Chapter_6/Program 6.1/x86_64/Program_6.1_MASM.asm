@@ -22,7 +22,7 @@ call _sum
 add rax, rbx
 dec rax
 
-mov rcx, 0
+xor rcx, rcx
 call ExitProcess
 _main ENDP
 
