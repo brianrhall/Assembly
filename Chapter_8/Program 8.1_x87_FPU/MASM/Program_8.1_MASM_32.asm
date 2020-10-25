@@ -27,10 +27,9 @@ fadd ST(0), ST(1)	; ST(1) = PI, ST(0) = 1.2
 fist r_value		; copies ST(0), rounds to nearest, stores in memory, r_value = 4
 
 fstp f_result		; float store single precision (32 bits) from top of FPU stack
-push 0
 push f_result
 call _printFloat
-add esp, 8
+add esp, 4
 
 fstp d_result		; float store double precision (64 bits) from top of FPU stack
 push DWORD PTR [d_result + 4]
