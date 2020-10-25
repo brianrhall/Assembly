@@ -11,9 +11,9 @@ _printDouble PROTO C
 
 .data
 value    REAL4 1.2
-r_value  REAL4 ?	; Reserve 4 bytes for holding a 32-bit float
+r_value  DWORD ?	; Reserve 4 bytes for holding a 32-bit value
 f_result REAL4 ?
-d_result REAL8 ?	; Reserve 8 bytes for holding a 64-bit float
+d_result REAL8 ?	; Reserve 8 bytes for holding a 64-bit value
 
 .code
 _asmMain PROC

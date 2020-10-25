@@ -8,9 +8,9 @@
 value: .float 1.2
 
 .bss
-.lcomm r_value, 4   # Reserve 4 bytes for holding a 32-bit float
+.lcomm r_value, 4   # Reserve 4 bytes for holding a 32-bit value
 .lcomm f_result, 4
-.lcomm d_result, 8  # Reserve 8 bytes for holding a 64-bit float
+.lcomm d_result, 8  # Reserve 8 bytes for holding a 64-bit value
 
 .text
 .global _asmMain

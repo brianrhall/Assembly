@@ -9,9 +9,9 @@ section .data
 value: dd 1.2
 
 section .bss
-r_value: resd 1		; Reserve 4 bytes for holding a 32-bit float
+r_value: resd 1		; Reserve 4 bytes for holding a 32-bit value
 f_result: resd 1
-d_result: resq 1	; Reserve 8 bytes for holding a 64-bit float
+d_result: resq 1	; Reserve 8 bytes for holding a 64-bit value
 
 section .text
 global _asmMain
