@@ -29,7 +29,7 @@ Is this book for you? Checkout the [Preface](./content/Edition2/Assembly_Ed2_Pre
 
 ### Chapter Roadmap
 
-![Alt](./content/Edition2/ChapterRoadmap_Ed2.pdf "Chapter Roadmap")
+![Alt](./content/Edition2/ChapterRoadmap_Ed2.png "Chapter Roadmap")
 
 ---
 
