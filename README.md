@@ -3,7 +3,7 @@
 #### * Code Repository - some assembly required...git it? *
 
 ## About
-<img src = "./content/Edition2/Cover_Ed2.png" align="right" alt = "Cover" width="320" border="1" hspace="10" vspace="5">
+<img src = "./content/Edition2/Cover_Ed2.png" align="right" alt = "Cover" width="320" border="2" border-color="black" hspace="10" vspace="5">
 
 Welcome to the code repository for our book! *APCASE* is a very practical and comprehensive educational text for students, educators, and professionals seeking to learn about Assembly programming and computer architecture. But what makes our book helpful and unique?
 
