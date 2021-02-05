@@ -1,10 +1,10 @@
 # Book Links
 
-### This is an organized collection of all the links in the book. You're welcome. Bold links indicate a changed link since publication (Edition 1.0).
+### This is an organized collection of all the links in the book. You're welcome. Bold links indicate a changed link since publication (Edition 2.0).
 
 ## Front Matter
--  Book website: [http://www.prospectpressvt.com/titles/hall-assembly-programming/](http://www.prospectpressvt.com/titles/hall-assembly-programming/)
--  Book repository: [https://github.com/brianrhall/Assembly](https://github.com/brianrhall/Assembly)-  Instructor resources: [http://prospectpressvt.com/titles/hall-assembly-programming/instructor-resources/](http://prospectpressvt.com/titles/hall-assembly-programming/instructor-resources/)-  Student resources: [http://prospectpressvt.com/titles/hall-assembly-programming/student-resources/](http://prospectpressvt.com/titles/hall-assembly-programming/student-resources/)-  Brian’s website: [http://www.brianrhall.net](http://www.brianrhall.net)-  Kevin’s website: [http://www.kevinslonka.com](http://www.brianrhall.net)
+-  Book website & resources: [https://www.prospectpressvt.com/textbooks/Hall-assembly-programming-2-0](https://www.prospectpressvt.com/textbooks/Hall-assembly-programming-2-0)
+-  Book repository: [https://github.com/brianrhall/Assembly](https://github.com/brianrhall/Assembly)-  Brian’s website: [https://www.brianrhall.com](http://www.brianrhall.com)-  Kevin’s website: [https://www.kevinslonka.com](https://www.kevinslonka.com)
 
 
 ## Chapter 1: Language and Data Fundamentals

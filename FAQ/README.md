@@ -2,7 +2,7 @@
 
 ***Important Notes***
 
-- **For Mac users: The macOS 10.14 SDK and later no longer support 32-bit applications. If you want to write 32-bit programs for i386, Xcode 9.4 or earlier is required.** If you are using macOS High Sierra (10.3) and XCode 9 or later, you will discover that the i386 architecture is deprecated. We will be working on creating 64-bit versions of all the programs throughout the text. In the next edition, 64-bit programs will likely replace many of the 32-bit programs. We won't remove the 32-bit programs from GitHub, but the text will use the newer 64-bit programs for the examples. **In the meantime, basic 64-bit templates are in the Appendix B and C folders.**
+- If you are using macOS High Sierra (10.3) and XCode 9 or later (very likely), you will discover that the i386 architecture is deprecated, and you must use x86_64. We have provided both 32-bit and 64-bit programs where possible but we recommend Edition 2 that has a 64-bit focus. **The macOS 10.14 SDK and later do not support 32-bit applications. If you want to write 32-bit programs for i386 on macOS, Xcode 9.4 or earlier is required.**
 
 ***Book***
 
@@ -46,7 +46,7 @@ Yes. Every bit of code must be translated to run on a processor in its native in
 #### Why x86? Is it too complex for students?
 Keep in mind that this text is geared toward applied computer science and software engineering students. Based on our experiences teaching the course, students can handle x86 with our approach.
 
-Although x86 is a complex architecture, it is the most common architecture in laptops and desktops, the systems students are using every day. In the book we do not cover the entire instruction set detail by detail (Intel's documentation does that). We cover what is necessary to illustrate the principles of computer architecture and simultaneously give students useful context applicable to the systems they are using and on which they are developing software. We do give introductions to other important architectures in *Chapter 11*.
+Although x86 is a complex architecture, it is the most common architecture in laptops and desktops, the systems students are using every day. In the book, we do not cover the entire instruction set detail by detail (Intel's documentation does that). We cover what is necessary to illustrate the principles of computer architecture and simultaneously give students useful context applicable to the systems they are using and on which they are developing software. We do give introductions to other important architectures in *Chapter 11*.
 
 We are contemplating writing an ARM supplement for the text since x86 and ARM are the two most dominant architectures in the computing market. But ARM isn't so simple either.
 
@@ -60,7 +60,7 @@ A simple explanation I (Brian) give students for the different syntaxes is that 
 
 When I teach the course, I do allow students to choose which environment they want. They can even switch from assignment to assignment. It is one of the main reasons we wrote the book the way we did. We wanted instructors and students to be able to use whatever environment they wanted and have the ability to try different things. I disliked other popular texts only using Visual Studio/MASM and esoteric approaches to some topics. I am sure there are some profs out there that will take my approach and I am sure there are plenty that will choose one syntax and require all work in that syntax, as it would simplify grading and such. I do my work on a Mac, so I have Xcode for GAS (Clang/LLVM) on macOS, a Windows VM for using Visual Studio/MASM, and an Ubuntu VM that I use for Linux/NASM code. As an instructor, I am used to the different syntaxes so switching between them and grading work in them is not so problematic. But, one syntax can be chosen and that thread followed through the text. The point is you have choice.
 
-In the classroom, I will go back and forth between syntax examples, depending on what points I am trying to make and things to watch for in each syntax. Most of my students use Visual Studio/MASM on Windows, quite a few use Linux/NASM, and some use Xcode on macOS. I try to showcase a little bit of each. Some assignments, like those in *Chapter 3*, especially 3.3, have students spend a little time with an assembler that they probably won’t be using. I think a little translation knowledge between syntaxes is useful because if students are looking online at examples, they may find help or some code, but it may be written in a syntax they are not using, and they should be able to translate the code (with some documented guidance such as [Appendix A](../content/Assembly_App_A_GitHub.pdf)). My students get very familiar with whatever syntax/environment they have chosen, and then also get some tangential knowledge in the others.
+In the classroom, I will go back and forth between syntax examples, depending on what points I am trying to make and things to watch for in each syntax. Most of my students use Visual Studio/MASM on Windows, quite a few use Linux/NASM, and some use Xcode on macOS. I try to showcase a little bit of each. Some assignments, like those in *Chapter 3*, especially 3.3, have students spend a little time with an assembler that they probably won’t be using. I think a little translation knowledge between syntaxes is useful because if students are looking online at examples, they may find help or some code, but it may be written in a syntax they are not using, and they should be able to translate the code (with some documented guidance such as [Appendix A](../content/Edition2/Assembly_Ed2_App_A_GitHub.pdf)). My students get very familiar with whatever syntax/environment they have chosen, and then also get some tangential knowledge in the others.
 
 I do have students answer the text questions as-is, again, building that cross-syntax knowledge, but having students answer some of the short answer and T/F questions in a single syntax is certainly a possible approach.
 
@@ -74,7 +74,7 @@ We wanted people to be able to use Mac, Windows, or Linux standalone or simultan
 
 Some Assembly texts have 3rd-party (custom) macros and software to help simplify certain tasks, which is fine in that sense, it may help you get certain things done a little more quickly or earlier. However, students will be learning about the building blocks necessary to do tasks like I/O anyway, so it really depends on how you arrange the blocks.
 
-We avoid non-standard environments and software because it is not how you would actually use Assembly in practice. For example, we use GitHub to get our code out to the world, because it is what modern developers use. We use system calls, standard I/O libraries, and OS APIs to do tasks like I/O. We use the latest operating systems and development environments because they all inherently have the ability to do Assembly programming without any extra software (see [Appendix B: Environment Setup](../content/Assembly_App_B_GitHub.pdf)).
+We avoid non-standard environments and software because it is not how you would actually use Assembly in practice. For example, we use GitHub to get our code out to the world, because it is what modern developers use. We use system calls, standard I/O libraries, and OS APIs to do tasks like I/O. We use the latest operating systems and development environments because they all inherently have the ability to do Assembly programming without any extra software (see [Appendix B: Environment Setup](../content/Edition2/Assembly_Ed2_App_B_GitHub.pdf)).
 
 We want students to see things in a way they are used professionally. Such an approach helps understanding well beyond Assembly programming.
 
@@ -96,7 +96,7 @@ Yes, try here -> [Book_Links.md](../Book_Links.md), which is in the file list at
 #### Which provider should I choose for the eBook?
 Prospect Press provides a page that [compares](https://prospectpressvt.com/ordering/direct-student-orders/) the purchasing options, but we have also summarized it here. To go directly to our eBook page at the providers, just click the links below.
 
-|    Question     | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka) | [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) |
+|    Question     | [Redshelf.com](https://redshelf.com/book/1671071) | [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-amp-kevin-j-v9781943153763) |
 |----|----|----|
 | Online or Download?     | Online only | Online AND Download |
 | Duration?         | Permanent online access | 365 day access for online, perpetual download |
@@ -139,6 +139,6 @@ Here are some example `nasm` commands to assemble and link using NASM on macOS i
 
 <a id="global"></a>
 #### Do I use the .globl or .global directive for *main* in GAS?
-Either. In the past, GAS used the .globl directive (without the *a*), but eventually updated the assembler to accept .global as well. We use .globl in the GAS examples and programs in the book.
+Either. In the past, GAS used the .globl directive (without the *a*), but eventually updated the assembler to accept .global as well. We use .globl in the GAS 32-bit programs and .global in the 64-bit examples.
 
 ---

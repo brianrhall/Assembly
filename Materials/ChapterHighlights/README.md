@@ -57,7 +57,7 @@ Here we provide answers to these questions from our perspective. Keep in mind th
 - *Struggle*: Feeling overwhelmed by the amount of detail (e.g., generations, formats, registers, instructions)
 - *Don't forget*: To check what a particular system supports
 
-**Chapter 9 - Inline Assembly and Macros | Objective: Integreate low-level and high-level code**
+**Chapter 9 - Inline Assembly, Intrinsics, and Macros | Objective: Integreate low-level and high-level code**
 
 - *Important*: Understanding the effects of software and hardware optimizations
 - *Struggle*: The syntax details of Clang/GCC inline assembly, memory constraints

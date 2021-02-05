@@ -1,4 +1,4 @@
-# cdecl (32-bit) - Function Overview Supplement
+# cdecl (32-bit) - Function Overview Supplement (Edition 1)
 
 #### Here we provide a few more syntax examples of the function overview in Chapter 6.
 

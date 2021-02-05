@@ -1,6 +1,8 @@
 // Program 10.7
 // Library and API System Calls - Windows (C++ 32/64-bit)
 // Copyright (c) 2017 Hall & Slonka
+// Note: In Project Properies select
+// General->Advanced->Character Set to Use Multi-Byte Character Set
 
 #include <Windows.h>
 

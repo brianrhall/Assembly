@@ -4,8 +4,8 @@
 
 extrn ExitProcess : proc
 
-_printFloat  PROTO C
-_printDouble PROTO C
+_printFloat  PROTO
+_printDouble PROTO
 
 .data
 value    REAL4 1.2

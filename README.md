@@ -3,33 +3,33 @@
 #### * Code Repository - some assembly required...git it? *
 
 ## About
-<img src = "./content/Cover.png" align="right" alt = "Cover" width="320" border="1" hspace="10" vspace="5">
+<img src = "./content/Edition2/Cover_Ed2.pdf" align="right" alt = "Cover" width="320" border="1" hspace="10" vspace="5">
 
 Welcome to the code repository for our book! *APCASE* is a very practical and comprehensive educational text for students, educators, and professionals seeking to learn about Assembly programming and computer architecture. But what makes our book helpful and unique?
 
-- Based on x86 and x86_64 architecture.
+- Based on a dominant architecture - x86 and x86_64 - and what you learn will be transferable to other architectures.
 - All programming examples are provided for three common assemblers: GAS (Clang/LLVM), MASM, and NASM, which ensures both AT&T and Intel syntax. This allows for learning on any OS platform: Mac, Windows, and Linux.
 - Context and examples provided in both 32-bit and 64-bit, both of which are useful for a programmer.
-- Code-oriented and detailed overviews of function calls, floating-point operations (x87 through AVX), inline Assembly, and system calls, all in one book.
+- Code-oriented and detailed overviews of function calls, floating-point operations (x87 through AVX), inline Assembly, intrinsics, and system calls, all in one book.
 - Brief introduction and code examples for other modern architectures like ARM, AVR, RISC-V, and z/Architecture.
 - The Appendices provide practical information and guide students in learning Assembly programming.
 - Chapter Supplements provide a deeper dive on topics as necessary.
 - [Links](./Book_Links.md) to wikis, developer resources, and videos are provided to assist in further exploration of topics.
 - Attention, Programming, and Learning notes are placed throughout the text to guide the reader in beneficial ways.
 
-| [Prospect Press](http://www.prospectpressvt.com/) | eBook ([comparison](./FAQ/README.md#eBook)) | Print Book (306 pages) |
+| [Prospect Press](https://www.prospectpressvt.com/) | Print Book (313 pages) | eBook ([comparison](./FAQ/README.md#eBook)) |
 |----------------|-------|------------|
-| Price     | $44 | $68 |
-| Sources   | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka), [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) | [Amazon](https://www.amazon.com/dp/1943153329), [Amazon Europe](https://www.amazon.de/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329/), [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka) |
-| ISBN      | 978-1-943153-31-2 | 978-1-943153-32-9 |
+| Price     |  $71.50 | $46.50 |
+| Sources   | [Redshelf.com](https://redshelf.com/book/1671071) | [Redshelf.com](https://redshelf.com/book/1671071), [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-amp-kevin-j-v9781943153763)
+| ISBN      | 978-1-943153-82-4 | 978-1-943153-76-3 |
 
-Is this book for you? Checkout the [Preface](./content/Assembly_Preface_GitHub.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./content/Assembly_Ch_3_GitHub.pdf), and the free [Appendices](#appendices).
+Is this book for you? Checkout the [Preface](./content/Edition2/Assembly_Ed2_Preface_GitHub.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./content/Edition2/Assembly_Ed2_Ch3_GitHub.pdf), and the free [Appendices](#appendices).
 
 ---
 
 ### Chapter Roadmap
 
-![Alt](./content/ChapterRoadmap.png "Chapter Roadmap")
+![Alt](./content/Edition2/ChapterRoadmap_Ed2.pdf "Chapter Roadmap")
 
 ---
 
@@ -38,25 +38,25 @@ Is this book for you? Checkout the [Preface](./content/Assembly_Preface_GitHub.p
 Appendices A, B, E, and I are available for free.
 
 - Introduction to the Appendices
-- [Appendix A: Assembly Translation](./content/Assembly_App_A_GitHub.pdf)
-- [Appendix B: Environment Setup](./content/Assembly_App_B_GitHub.pdf)
+- [Appendix A: Assembly Translation](./content/Edition2/Assembly_Ed2_App_A_GitHub.pdf)
+- [Appendix B: Environment Setup](./content/Edition2/Assembly_Ed2_App_B_GitHub.pdf)
 - Appendix C: Disassembly
 - Appendix D: Command-Line Debugging Assembly with GDB
-- [Appendix E: Linking Assembly and C++](./content/Assembly_App_E_GitHub.pdf)
+- [Appendix E: Linking Assembly and C++](./content/Edition2/Assembly_Ed2_App_E_GitHub.pdf)
 - Appendix F: Functions and Stack
 - Appendix G: Using CPUID
 - Appendix H: ASCII and Decimal Arithmetic
-- [Appendix I: Intrinsics](./content/Assembly_App_I_GitHub.pdf)
+- [Appendix I: Intrinsics](./content/Edition2/Assembly_Ed2_App_I_GitHub.pdf)
 
 
 ---
 
 ### Links
 
-- Book Website (@ProspectPressVT): [http://www.prospectpressvt.com/titles/hall-assembly-programming/](http://www.prospectpressvt.com/titles/hall-assembly-programming/)
+- Prospect Press (@ProspectPressVT): [https://www.prospectpressvt.com/textbooks/Hall-assembly-programming-2-0](https://www.prospectpressvt.com/textbooks/Hall-assembly-programming-2-0)
 - YouTube Channel (Book Videos): [https://www.youtube.com/channel/UCr0svQEez3UQvlj6-5EYS6w](https://www.youtube.com/channel/UCr0svQEez3UQvlj6-5EYS6w)
-- Brian's Website: [http://www.brianrhall.net](http://www.brianrhall.net)
-- Kevin's Website: [http://www.kevinslonka.com](http://www.kevinslonka.com)
+- Brian's Website: [https://www.brianrhall.com](https://www.brianrhall.com)
+- Kevin's Website: [https://www.kevinslonka.com](https://www.kevinslonka.com)
 - Organized collection of all links in APCASE: [Book_Links.md](./Book_Links.md)
 
 ---
@@ -72,13 +72,28 @@ When citing code snippets or other content from the repository or book, please c
 author = {Hall, B. R. and Slonka, K. J.},
 title = {Assembly Programming and Computer Architecture for Software Engineers},
 publisher = {Prospect Press},
-year = {2018},
+year = 2020,
 address = {Burlington, VT},
+edition = 2,
+isbn = {978-1-943153-32-9}
+}
+```
+
+```
+@Book{APCASE,
+author = {Hall, B. R. and Slonka, K. J.},
+title = {Assembly Programming and Computer Architecture for Software Engineers},
+publisher = {Prospect Press},
+year = 2018,
+address = {Burlington, VT},
+edition = 1,
 isbn = {978-1-943153-32-9}
 }
 ```
 
 **APA**:
+
+Hall, B. R. & Slonka, K. J. (2020). *Assembly Programming and Computer Architecture for Software Engineers* (2nd ed.). Burlington, VT: Prospect Press.
 
 Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architecture for Software Engineers*. Burlington, VT: Prospect Press.
 
@@ -89,7 +104,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 ***Important Notes***
 
-- **The macOS 10.14 SDK and later no longer support 32-bit applications. If you want to write 32-bit programs for i386 on macOS, Xcode 9.4 or earlier is required.** If you are using macOS High Sierra (10.3) and XCode 9 or later, you will discover that the i386 architecture is deprecated. We have provided both 32-bit and 64-bit programs in most instances. In the next edition, 64-bit programs will likely replace many of the 32-bit programs for teaching concepts. We won't remove the 32-bit programs from GitHub, but the text will use the newer 64-bit programs for the examples. **In the meantime, both 32-bit and 64-bit programs are available for learning.**
+- If you are using macOS High Sierra (10.3) and XCode 9 or later (very likely), you will discover that the i386 architecture is deprecated, and you must use x86_64. We have provided both 32-bit and 64-bit programs where possible but we recommend Edition 2 that has a 64-bit focus. **The macOS 10.14 SDK and later do not support 32-bit applications. If you want to write 32-bit programs for i386 on macOS, Xcode 9.4 or earlier is required.**
 
 ***Book***
 
@@ -100,7 +115,8 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 - [Is the GAS and Clang/LLVM code for macOS or Linux?](./FAQ/README.md#GAS)
 - [What if a web link in the book is broken? / Is there a place with all active web links?](./FAQ/README.md#book_links)
 - [What if students or instructors want to be able to perform console I/O before Chapter 6 and/or Chapter 10?](./Materials/Console\_IO/)
-- [Are there various syntax examples of the Chapter 6 detailed cdecl walkthough?](./Materials/cdecl/README.md)
+- [Are there various syntax examples of the Edition 1, Chapter 6 detailed cdecl walkthough?](./Materials/cdecl/README.md)
+- [Are there various syntax examples of the Edition 2, Chapter 6 detailed x64 walkthough?(Coming Soon!)]()
 - [Which provider should I choose for the eBook?](./FAQ/README.md#eBook)
 
 ***Teaching***
@@ -115,9 +131,25 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 - [Do I use the .globl or .global directive for *main* in GAS?](./FAQ/README.md#global)
 - [How do I use GDB or LLDB for command-line debugging?](./Materials/GDB\_LLDB/)
 
----
+## Edition 1 Information
 
-## Errata
+| [Prospect Press](http://www.prospectpressvt.com/) | eBook ([comparison](./FAQ/README.md#eBook)) | Print Book (306 pages) |
+|----------------|-------|------------|
+| Price     | $44 | $68 |
+| Sources   | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka), [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) | [Amazon](https://www.amazon.com/dp/1943153329), [Amazon Europe](https://www.amazon.de/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329/), [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka) |
+| ISBN      | 978-1-943153-31-2 | 978-1-943153-32-9 |
+
+***Edition 1 Samples***
+
+- [Preface](./content/Edition1/Assembly_Ed1_Preface_GitHub.pdf)
+- [Chapter 3: Assembly and Syntax Fundamentals](./content/Edition1/Assembly_Ed1_Ch3_GitHub.pdf)
+- [Appendix A: Assembly Translation](./content/Edition1/Assembly_Ed1_App_A_GitHub.pdf)
+- [Appendix B: Environment Setup](./content/Edition1/Assembly_Ed1_App_B_GitHub.pdf)
+- [Appendix E: Linking Assembly and C++](./content/Edition1/Assembly_Ed1_App_E_GitHub.pdf)
+- [Appendix I: Intrinsics](./content/Edition1/Assembly_Ed1_App_I_GitHub.pdf)
+
+***Edition 1 Errata***
+
 - **Chapter 4, p. 76, Program 4.4 - NASM**:
 the line `mov eax, array` should be `mov eax, [array]`. Fixed in repository.
 - **Chapter 5, p. 95, Code Review**:
