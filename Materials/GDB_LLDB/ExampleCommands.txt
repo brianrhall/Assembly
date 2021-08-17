@@ -43,6 +43,7 @@ https://lldb.llvm.org/lldb-gdb.html
 
 10. examine a floating point array
 (gdb) x/4f &floats
+(gdb) p (double[4])vector1
 (lldb) x/4f &floats
 
 11. examine a specific element in an array

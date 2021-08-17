@@ -89,6 +89,7 @@ Resources:
 
 	```
 	(gdb) x/f &floats+1
+	(gdb) p (double[4])vector1
 	(lldb) x/f &floats+1
 	```
 

@@ -172,7 +172,6 @@ JNG description should be "Jump if **not** greater (signed)". This is correct on
 - **Chapter 7, p. 122, CMPS (si and di registers flipped)**:
 <br>*Incorrect*: "CMPS compares each corresponding character by performing an implicit subtraction of the character referenced by **(r/e)di** from the character referenced by **(r/e)si**..."
 <br>*Correct*: "CMPS compares each corresponding character by performing an implicit subtraction of the character referenced by **(r/e)si** from the character referenced by **(r/e)di**..."
-- more errors yet to be found...
 
 ## Contact
 We are very happy to answer any questions or consider suggestions you might have about the text. Just email one of us! <br>
