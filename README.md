@@ -131,6 +131,18 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 - [Do I use the .globl or .global directive for *main* in GAS?](./FAQ/README.md#global)
 - [How do I use GDB or LLDB for command-line debugging?](./Materials/GDB\_LLDB/)
 
+## Edition 2.0 Errata
+
+- **Chapter 3, p. 45, Programming Note**:
+<br>*Incorrect*: "The program would expect one piece of data from the user (weight in pounds) and would **multiply** pounds..."
+<br>*Correct*: "The program would expect one piece of data from the user (weight in pounds) and would **divide** pounds..."
+- **Chapter 3, p. 53, Program 3.2, GAS**: Before `syscall` and `.end`, the line `movl $1, %eax` needs removed. This is correct in the repository.
+- **Chapter 4, p. 62, Addition and Subtraction, GAS DEC*S* example**:
+<br><code>DEC*S* *M%rip)/%R* </code> should be <code>DEC*S* *M%(rip)/%R* </code>
+- **Chapter 6, p. 109, Implementations**: A snipped of text from Chapter 12 was mistakenly placed in the final paragraph on page 109 during copy editing. The final two sentences should say: "We also compare cdecl, stdcall, and fastcall conventions in 32-bit. All code examples in this section were written in C++ using Xcode."
+- **Chapter 8, p. 139, Programming Note**: Clarification that FSAVE/FNSAVE **first saves the FPU state** and then clears the registers.
+
+
 ## Edition 1 Information
 
 | [Prospect Press](http://www.prospectpressvt.com/) | eBook ([comparison](./FAQ/README.md#eBook)) | Print Book (306 pages) |
