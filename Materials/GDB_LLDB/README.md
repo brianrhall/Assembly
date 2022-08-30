@@ -2,9 +2,9 @@
 
 #### How do I use GDB or LLDB for command-line debugging?
 
-Watch our [video](https://youtu.be/oMp_R1hWLtM) which goes through the code examples above and uses GDB on Linux and LLDB on macOS to contrast the following [debugger commands](./ExampleCommands.txt). Remember that any specific addresses used in the commands will likely be different on your system!
+Watch our [video](https://lowlevelcoder.com/materials-videos#video3) which goes through the code examples above and uses GDB on Linux and LLDB on macOS to contrast the following [debugger commands](./ExampleCommands.txt). Remember that any specific addresses used in the commands will likely be different on your system!
 
-[<img src = "https://img.youtube.com/vi/oMp_R1hWLtM/0.jpg" alt = "Materials Video 3" width="200" border="0" hspace="0" vspace="0">](https://www.youtube.com/watch?v=oMp_R1hWLtM)
+[<img src = "https://lowlevelcoder.com/wp-content/uploads/2022/08/Materials_Video3_thumb.png" alt = "Materials Video 3" width="200" border="0" hspace="0" vspace="0">](https://lowlevelcoder.com/materials-videos#video3)
 
 Resources:
 

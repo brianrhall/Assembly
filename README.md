@@ -19,7 +19,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 
 | [Prospect Press](https://www.prospectpressvt.com/) | Print Book (313 pages) | eBook ([comparison](./FAQ/README.md#eBook)) |
 |----------------|-------|------------|
-| Price     |  $71.50 | $46.50 |
+| Price     |  $82.25 | $46.50 |
 | Sources   | [Redshelf.com](https://redshelf.com/book/1671071) | [Redshelf.com](https://redshelf.com/book/1671071), [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-amp-kevin-j-v9781943153763)
 | ISBN      | 978-1-943153-82-4 | 978-1-943153-76-3 |
 
@@ -54,7 +54,7 @@ Appendices A, B, E, and I are available for free.
 ### Links
 
 - Prospect Press (@ProspectPressVT): [https://www.prospectpressvt.com/textbooks/Hall-assembly-programming-2-0](https://www.prospectpressvt.com/textbooks/Hall-assembly-programming-2-0)
-- YouTube Channel (Book Videos): [https://www.youtube.com/channel/UCr0svQEez3UQvlj6-5EYS6w](https://www.youtube.com/channel/UCr0svQEez3UQvlj6-5EYS6w)
+- Book Videos: [https://lowlevelcoder.com](https://lowlevelcoder.com)
 - Brian's Website: [https://www.brianrhall.com](https://www.brianrhall.com)
 - Kevin's Website: [https://www.kevinslonka.com](https://www.kevinslonka.com)
 - Organized collection of all links in APCASE: [Book_Links.md](./Book_Links.md)

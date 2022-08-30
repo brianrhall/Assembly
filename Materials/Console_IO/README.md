@@ -2,9 +2,9 @@
 
 #### What if students or instructors want to be able to perform console Input/Output (I/O) before Chapter 6 and/or Chapter 10?
 
-[<img src = "https://img.youtube.com/vi/rAAti1_jzeY/0.jpg" align="left" alt = "Materials Video 1" width="150" border="0" hspace="0" vspace="5" style="margin-right:10px">](https://www.youtube.com/watch?v=rAAti1_jzeY)
+[<img src = "https://lowlevelcoder.com/wp-content/uploads/2022/08/Materials_Video1_thumb.png" align="left" alt = "Materials Video 1" width="150" border="0" hspace="0" vspace="5" style="margin-right:10px">](https://lowlevelcoder.com/materials-videos)
 
-We have provided these console output code examples (above) and [video](https://youtu.be/rAAti1_jzeY) for instructors/students who want to introduce/learn the ability to do console I/O as early as *Chapter 3*. However, keep in mind that using functions to perform system/API calls will not be fully understood until working through *Chapters 6 and 10*.
+We have provided these console output code examples (above) and [video](https://lowlevelcoder.com/materials-videos) for instructors/students who want to introduce/learn the ability to do console I/O as early as *Chapter 3*. However, keep in mind that using functions to perform system/API calls will not be fully understood until working through *Chapters 6 and 10*.
 <br><br>
 
 ###### Background:
