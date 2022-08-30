@@ -9,7 +9,7 @@ Here you will find additional materials and content we provide for the book. The
 - Console Input/Output
 	- [What if students or instructors want to be able to perform console Input/Output (I/O) before Chapter 6 and/or Chapter 10?](./Console\_IO/)
 	- [Console\_Output\_GAS\_Linux.s](./Console\_IO/Console\_Output\_GAS\_Linux.s), [Console\_Output\_GAS\_macOS.s](./Console\_IO/Console\_Output\_GAS\_macOS.s), [Console\_Output\_MASM.asm](./Console\_IO/Console\_Output\_MASM.asm), [Console\_Output\_NASM.asm](./Console\_IO/Console\_Output\_NASM.asm)
-	- [Materials Video 1](https://lowlevelcoder.com/materials-videos#video1)
+	- [Materials Video 1](https://lowlevelcoder.com/materials-videos)
 - GDB and LLDB
 	- [How do I use GDB or LLDB for command-line debugging?](./GDB\_LLDB/)
 	- [GDB\_LLDB\_GAS\_Linux.s](./GDB\_LLDB/GDB\_LLDB\_GAS\_Linux.s), [GDB\_LLDB\_GAS\_macOS.s](./GDB\_LLDB/GDB\_LLDB\_GAS\_macOS.s), [GDB\_LLDB\_NASM.asm](./GDB\_LLDB/GDB\_LLDB\_NASM.asm)

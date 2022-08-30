@@ -14,7 +14,7 @@
 
 ###### Developer
 -  [https://www.unicode.org](https://www.unicode.org)-  [https://www.unicode.org/charts/PDF/U0000.pdf](https://www.unicode.org/charts/PDF/U0000.pdf) (ASCII)-  [http://devimages.apple.com/llvm/videos/LLVM\_Assembler\_Infrastructure.mov](http://devimages.apple.com/llvm/videos/LLVM\_Assembler\_Infrastructure.mov) (LLVM-MC Overview)
-###### Videos-  Video 1.1: Welcome ([https://youtu.be/HBwgXY88hyc](https://youtu.be/HBwgXY88hyc))-  Video 1.2: Signing Integers ([https://youtu.be/vHijiZMbj9E](https://youtu.be/vHijiZMbj9E))-  Video 1.3: A 3-bit Computer Example ([https://youtu.be/gYczcmDywag](https://youtu.be/gYczcmDywag))
+###### Videos-  [Video 1.1: Welcome](https://lowlevelcoder.com)-  [Video 1.2: Signing Integers](https://lowlevelcoder.com#video2)-  [Video 1.3: A 3-bit Computer Example](https://lowlevelcoder.com#video3)
 
 ###### In text
 - [https://en.wikipedia.org/wiki/ASCII](https://en.wikipedia.org/wiki/ASCII)
