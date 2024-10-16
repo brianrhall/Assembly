@@ -23,6 +23,7 @@
 
 ***Programming***
 
+- [Setting up shadow space on Windows x64](#windows)
 - [How do I assemble and link on Linux?](#linux)
 - [How do I assemble and link on macOS (Terminal)?](#mac)
 - [Do I use the .globl or .global directive for *main* in GAS?](#global)
@@ -104,6 +105,22 @@ Prospect Press provides a page that [compares](https://prospectpressvt.com/order
 | Can I buy this in the campus bookstore? | Yes, at selected college and university bookstores. Check if your bookstore sells RedShelf ebooks. | No, not available through campus bookstores. |
 |Study Tools? | Built-in study tools include highlights, study guides, annotations, definitions, flashcards, and collaboration. | Notes and highlights (synced across devices). <br>Share mark-ups with your professor or classmates—and subscribe to theirs, too. Review Mode, which allows you to look at your notes and highlights in context with your eBook without the distraction of full-reading mode. |
 | Screenshot? | [Redshelf screenshot](../content/Redshelf.pdf) | [Vital Source screenshot](../content/VitalSource.pdf) |
+
+---
+
+<a id="windows"></a>
+#### Setting up shadow space on Windows x64
+If you are using the most recent version of Windows 11, 23H2 - build 	22631.4169 - or later (9/10/2024), then you must include the following line of code upon entry into ```_main``` in all x64 Windows programs. More is explained in the the book! We will slowly add this line of code to the GitHub programs over time as people update, as it's not necessary for earlier versions of Windows. 
+
+```sub rsp, 28h``` or ```sub rsp, 20h```
+
+Chapter 6 discusses the requirements of stack frames in x64 Windows. The x64 calling convention on Windows requires functions to allocate four memory slots as "scratch space" to hold the values of the four parameter registers (```rcx, rdx, r8, r9```) that can be used to save current values held in those registers if they were to be used for passing parameters in any subsequent function calls within the currently running function. 
+
+In short, four parameter registers may be used for function calls, so stack space must be allocated by the running function that can be used to store the current register values if necessary (it's not always used or mandated to be used, but must be allocated). The four register values can be saved to the shadow space slots, parameter values being passed to a called function can be loaded into the parameter registers, the function can be called, and the values retreived from stack upon return.
+
+Four 64-bit (8 byte) values, the x64 register size, is 32 bytes (20h). But you usually need to also allocate a stack slot for the calling function's frame pointer (typically written in prologue code as ```push rbp```), another 8 bytes, for a total of 28h. Again, more is detailed in Chapter 6 and other important code examples in Chapter 8 (see Program 8.9).
+
+In the past, shadow space allocation wasn't explicity required in **all** Windows x64 programs, especially if ```_main``` was the only function or for leaf functions, but it seems after the version mentioned above, it is explicitly required by the OS everywhere.
 
 ---
 

@@ -104,6 +104,8 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 ***Important Notes***
 
+- If you are using the most recent version of Windows 11, 23H2 - build 	22631.4169 - or later (9/10/2024), then you must include the following line of code upon entry into ```_main``` in all x64 Windows programs. More is explained in the the [FAQ page](./FAQ/README.md#windows) (and the book!). We will slowly add this line of code to the GitHub programs over time as people update, as it's not necessary for earlier versions of Windows. ```sub rsp, 28h``` or ```sub rsp, 20h``` 
+
 - If you are using macOS High Sierra (10.3) and XCode 9 or later (very likely), you will discover that the i386 architecture is deprecated, and you must use x86_64. We have provided both 32-bit and 64-bit programs where possible but we recommend Edition 2 that has a 64-bit focus. **The macOS 10.14 SDK and later do not support 32-bit applications. If you want to write 32-bit programs for i386 on macOS, Xcode 9.4 or earlier is required.**
 
 ***Book***
@@ -126,6 +128,7 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 ***Programming***
 
+- [Setting up shadow space on Windows x64](./FAQ/README.md#windows)
 - [How do I assemble and link on Linux?](./FAQ/README.md#linux)
 - [How do I assemble and link on macOS (Terminal)?](./FAQ/README.md#mac)
 - [Do I use the .globl or .global directive for *main* in GAS?](./FAQ/README.md#global)
