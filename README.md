@@ -108,6 +108,11 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 - If you are using macOS High Sierra (10.3) and XCode 9 or later (very likely), you will discover that the i386 architecture is deprecated, and you must use x86_64. We have provided both 32-bit and 64-bit programs where possible but we recommend Edition 2 that has a 64-bit focus. **The macOS 10.14 SDK and later do not support 32-bit applications. If you want to write 32-bit programs for i386 on macOS, Xcode 9.4 or earlier is required.**
 
+- <span style="color: red;">**Can I write x86\_64 code on Apple Silicon???** (M1, M2, etc.)</span>  
+<span style="color: red;">**YES!**</span> Thanks to Rosetta. Just make sure Rosetta is installed and then in the Xcode project build settings set the Architecture to x86_64 and set arm64 to be Excluded. Emulators are cool things.
+
+<img src = "./FAQ/Xcode_Apple_Silicon.png" alt = "Xcode_Apple_Silicon" hspace="10" vspace="5" style="border: 1px solid black;">
+
 ***Book***
 
 - [Why learn Assembly? Is it even used anymore?](./FAQ/README.md#why)
