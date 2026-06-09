@@ -19,7 +19,7 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 
 | [Prospect Press](https://www.prospectpressvt.com/) | Print Book (ed. 2) | Print Book (ed. 1) | eBook (ed. 2) |
 |----------------|-------|-------|------------|
-| Price     |  \$78.26 |  \$78.20 | \$46.50 |
+| Price     |  \$78 |  \$9 - \$78 | \$46.50 |
 | Sources   | [Amazon](https://www.amazon.com/Assembly-Programming-Computer-Architecture-Engineers/dp/B0G2PMS3GT), [Campus Bookstores](https://www.prospectpressvt.com/textbooks/hall-assembly-programming-2-0#student-buy) | [Amazon](https://www.amazon.com/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329) | [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-amp-kevin-j-v9781943153763)
 | ISBN      | 978-1-943153-82-4 | 978-1-943153-32-9 | 978-1-943153-76-3 |
 
