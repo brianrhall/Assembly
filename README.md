@@ -17,11 +17,11 @@ Welcome to the code repository for our book! *APCASE* is a very practical and co
 - [Links](./Book_Links.md) to wikis, developer resources, and videos are provided to assist in further exploration of topics.
 - Attention, Programming, and Learning notes are placed throughout the text to guide the reader in beneficial ways.
 
-| [Prospect Press](https://www.prospectpressvt.com/) | Print Book (313 pages) | eBook ([comparison](./FAQ/README.md#eBook)) |
-|----------------|-------|------------|
-| Price     |  $82.25 | $46.50 |
-| Sources   | [Redshelf.com](https://redshelf.com/book/1671071) | [Redshelf.com](https://redshelf.com/book/1671071), [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-amp-kevin-j-v9781943153763)
-| ISBN      | 978-1-943153-82-4 | 978-1-943153-76-3 |
+| [Prospect Press](https://www.prospectpressvt.com/) | Print Book (ed. 2) | Print Book (ed. 1) | eBook (ed. 2) |
+|----------------|-------|-------|------------|
+| Price     |  \$78.26 |  \$78.20 | \$46.50 |
+| Sources   | [Amazon](https://www.amazon.com/Assembly-Programming-Computer-Architecture-Engineers/dp/B0G2PMS3GT), [Campus Bookstores](https://www.prospectpressvt.com/textbooks/hall-assembly-programming-2-0#student-buy) | [Amazon](https://www.amazon.com/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329) | [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-amp-kevin-j-v9781943153763)
+| ISBN      | 978-1-943153-82-4 | 978-1-943153-32-9 | 978-1-943153-76-3 |
 
 Is this book for you? Checkout the [Preface](./content/Edition2/Assembly_Ed2_Preface_GitHub.pdf), a free [Chapter 3: Assembly and Syntax Fundamentals](./content/Edition2/Assembly_Ed2_Ch3_GitHub.pdf), and the free [Appendices](#appendices).
 
@@ -108,8 +108,10 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 - If you are using macOS High Sierra (10.3) and XCode 9 or later (very likely), you will discover that the i386 architecture is deprecated, and you must use x86_64. We have provided both 32-bit and 64-bit programs where possible but we recommend Edition 2 that has a 64-bit focus. **The macOS 10.14 SDK and later do not support 32-bit applications. If you want to write 32-bit programs for i386 on macOS, Xcode 9.4 or earlier is required.**
 
-- <span style="color: red;">**Can I write x86\_64 code on Apple Silicon???** (M1, M2, etc.)</span>  
-<span style="color: red;">**YES!**</span> Thanks to Rosetta. Just make sure Rosetta is installed and then in the Xcode project build settings set the Architecture to x86_64 and set arm64 to be Excluded. Emulators are cool things.
+- <span style="color: red;">**Can I write x86\_64 code on Apple Silicon??? (M1-M4)**</span>  
+<span style="color: red;">**YES!**</span> Thanks to Rosetta. Just make sure Rosetta is installed and then in the Xcode project build settings set the Architecture to x86_64 and set arm64 to be Excluded. Emulators are cool things. 
+
+- Rosetta support will be phased out starting with the M5 processor and macOS 28 coming in Summer 2027.
 
 <img src = "./FAQ/Xcode_Apple_Silicon.png" alt = "Xcode_Apple_Silicon" hspace="10" vspace="5" style="border: 1px solid black;">
 
@@ -153,10 +155,10 @@ Hall, B. R. & Slonka, K. J. (2018). *Assembly Programming and Computer Architect
 
 ## Edition 1 Information
 
-| [Prospect Press](http://www.prospectpressvt.com/) | eBook ([comparison](./FAQ/README.md#eBook)) | Print Book (306 pages) |
+| [Prospect Press](http://www.prospectpressvt.com/) | eBook | Print Book |
 |----------------|-------|------------|
-| Price     | $44 | $68 |
-| Sources   | [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka), [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) | [Amazon](https://www.amazon.com/dp/1943153329), [Amazon Europe](https://www.amazon.de/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329/), [Redshelf.com](https://www.redshelf.com/book/742712/assembly-programming-and-computer-architecture-for-software-engineers-742712-9781943153312-brian-r-hall-and-kevin-j-slonka) |
+| Price     | \$44 | \$9 - \$78 |
+| Sources   | [Vital Source](https://www.vitalsource.com/products/assembly-programming-and-computer-architecture-for-brian-r-hall-and-kevin-j-v9781943153312) | [Amazon](https://www.amazon.com/dp/1943153329), [Amazon Europe](https://www.amazon.de/Assembly-Programming-Computer-Architecture-Engineers/dp/1943153329/) |
 | ISBN      | 978-1-943153-31-2 | 978-1-943153-32-9 |
 
 ***Edition 1 Samples***
