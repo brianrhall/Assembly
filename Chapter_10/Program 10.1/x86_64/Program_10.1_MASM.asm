@@ -10,6 +10,8 @@ array DWORD 3, 2, 6, 4, 1
 .CODE
 _main PROC
 
+sub rsp, 28h 			;see important notes in FAQ
+
 mov rax, OFFSET array		; array address to rax
 mov ebx, [rax + 4]		; second element to ebx
 

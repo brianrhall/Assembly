@@ -12,6 +12,8 @@ vectorB REAL4 7.8, 5.6, 3.4, 1.2
 .code
 _main PROC
 
+sub rsp, 28h 		;see important notes in FAQ
+
 movaps  xmm0, vectorA	; move aligned packed vectorA to XMM0
 roundps xmm1, xmm0, 1	; round down(1) values in XMM0 and store in XMM1
 cvtps2dq xmm2, xmm1	; convert SPF to int and store in XMM2

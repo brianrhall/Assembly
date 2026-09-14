@@ -12,6 +12,8 @@ result QWORD 0
 .code
 _main PROC
 
+sub rsp, 28h 		;see important notes in FAQ
+
 lea rax, w1
 lea rbx, w5
 movq mm0, [rax]		; move quadword w1-w4 to MM0

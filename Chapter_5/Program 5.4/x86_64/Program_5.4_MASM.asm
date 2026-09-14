@@ -7,6 +7,8 @@ extrn ExitProcess : proc
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 mov rax, 30
 while_loop:
    cmp rax, 50

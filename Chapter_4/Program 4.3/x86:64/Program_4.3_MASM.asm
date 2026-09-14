@@ -7,6 +7,8 @@ extrn ExitProcess : proc
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 mov eax, -534
 cdq
 mov ebx, 15

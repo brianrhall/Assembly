@@ -11,6 +11,8 @@ dval QWORD 8
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 ; MUL 1-op
 mov rax, mval 
 mov rbx, 8 

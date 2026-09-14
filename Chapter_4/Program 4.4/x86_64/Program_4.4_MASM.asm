@@ -10,6 +10,8 @@ array QWORD 1, 2, 3, 4
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 ; Load using byte offsets
 lea rsi, array 
 mov rax, QWORD PTR [rsi]

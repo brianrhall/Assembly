@@ -13,6 +13,8 @@ result  REAL4 ?, ?, ?, ?	; space for storing results
 .code
 _main PROC
 
+sub rsp, 28h 			;see important notes in FAQ
+
 movaps xmm0, vectorA		; move aligned packed SP vectorA to XMM0
 addps  xmm0, vectorB		; add vectorB to XMM0
 movaps result, xmm0		; move data to result

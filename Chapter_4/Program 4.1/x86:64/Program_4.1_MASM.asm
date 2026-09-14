@@ -11,6 +11,8 @@ val DWORD 25
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 mov eax, 0
 inc eax
 add eax, 200

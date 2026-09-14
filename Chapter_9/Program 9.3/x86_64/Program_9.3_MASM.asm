@@ -20,6 +20,8 @@ result DWORD 0
 .CODE
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 	intAdd result, intA, intB
 	intAdd result, intC, intD
 

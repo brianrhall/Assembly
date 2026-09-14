@@ -15,6 +15,8 @@ result      QWORD ?
 .code
 _main PROC
 
+sub rsp, 28h 		;see important notes in FAQ
+
 finit			; initialize FPU
 fstcw default_cw	; store initialized control word in default
 mov ax, default_cw	; move default control word to AX register

@@ -13,6 +13,8 @@ vectorD DWORD -2, -2, -2, -2
 .code
 _main PROC				; AVX/AVX2 example
 
+sub rsp, 28h 				;see important notes in FAQ
+
 lea rax, vectorA
 lea rbx, vectorB
 vmovups  ymm0, YMMWORD PTR [rax]	; move vectorA to YMM0

@@ -11,6 +11,8 @@ num2 DWORD 4
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 mov rax, 10
 dec rax
 mov rbx, 5

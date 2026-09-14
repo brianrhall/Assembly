@@ -13,6 +13,8 @@ result REAL4 ?			; space for storing result
 .code
 _main PROC			; scalar examples
 
+sub rsp, 28h 			;see important notes in FAQ
+
 movss  xmm0, valueA		; move valueA to XMM0
 addss  xmm0, valueA		; add valueA to XMM0
 movss  result, xmm0		; store result

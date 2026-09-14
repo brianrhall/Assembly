@@ -11,6 +11,8 @@ dval DWORD 8
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 ; MUL 1-op
 mov eax, mval
 mov ebx, 8

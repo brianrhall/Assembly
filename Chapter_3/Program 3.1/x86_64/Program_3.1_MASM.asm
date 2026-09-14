@@ -8,7 +8,10 @@ extrn ExitProcess : proc
 sum QWORD 0
 
 .code
-_main PROC 
+_main PROC
+
+sub rsp, 28h ;see important notes in FAQ
+
 mov rax, 25
 mov rbx, 50 
 add rax, rbx

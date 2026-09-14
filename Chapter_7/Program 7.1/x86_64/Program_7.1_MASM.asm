@@ -13,6 +13,8 @@ lenDst EQU ($ - dst)
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 ; compare string lengths
 mov rax, lenSrc
 cmp rax, lenDst

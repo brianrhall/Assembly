@@ -12,6 +12,8 @@ search BYTE "s"
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 xor rax, rax
 mov al, search
 lea rdi, src

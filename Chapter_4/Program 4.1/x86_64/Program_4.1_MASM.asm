@@ -11,6 +11,8 @@ val QWORD 25
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 mov rax, 0 
 inc rax
 add rax, 200 

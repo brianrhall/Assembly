@@ -9,6 +9,9 @@ sum DWORD 0
 
 .code
 _main PROC
+
+sub rsp, 28h ;see important notes in FAQ
+
 mov eax, 25
 mov ebx, 50
 add eax, ebx

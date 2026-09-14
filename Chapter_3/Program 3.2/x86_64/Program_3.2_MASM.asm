@@ -24,6 +24,8 @@ lenString         EQU ($ - stringLiteral)
 .code                             ; Section for instructions
 _main PROC                        ; Start of "_main" procedure
 
+sub rsp, 28h 			  ;see important notes in FAQ
+
 ; Label and instruction on
 ; the same line below
 partOne: mov rax, 10              ; Assign 10 to the rax register

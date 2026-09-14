@@ -12,6 +12,8 @@ vectorB REAL4 7.8, 5.6, 3.4, 1.2
 .code
 _main PROC
 
+sub rsp, 28h 		;see important notes in FAQ
+
 movaps xmm0, vectorA	; move vectorA to XMM0
 movaps xmm1, vectorB	; move vectorB to XMM1
 haddps xmm0, xmm1	; horizontal add packed SP vectorB to vectorA

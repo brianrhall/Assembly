@@ -11,6 +11,8 @@ taxes QWORD ?
 .code
 _main PROC
 
+sub rsp, 28h ;see important notes in FAQ
+
 mov rax, 50000 
 cmp wages, rax 
 jae higher
