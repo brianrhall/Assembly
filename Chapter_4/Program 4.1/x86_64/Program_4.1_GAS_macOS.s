@@ -15,8 +15,8 @@ inc %rax
 add $200, %rax
 sub val(%rip), %rax
 mov %rax, sum(%rip)
-dec sum(%rip)
-neg sum(%rip)
+decq sum(%rip)
+negq sum(%rip)
 
 movq $0x2000001, %rax
 xorq %rdi, %rdi
